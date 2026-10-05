@@ -1,0 +1,495 @@
+{
+  "common": {
+    "Topbar": {
+      "contact_info": [
+        { "icon": "Mail", "value": "info@techverzo.com" },
+        { "icon": "Phone", "value": "+91 98765 43210" },
+        { "icon": "MapPin", "value": "Noida, India" }
+      ],
+      "socials": [
+        { "icon": "Facebook", "href": "#" },
+        { "icon": "Linkedin", "href": "#" },
+        { "icon": "Instagram", "href": "#" },
+        { "icon": "Youtube", "href": "#" }
+      ]
+    },
+    "Header": {
+      "logo_image": "/logo/header-logo.png",
+      "logo_text": "TechVerzo",
+      "logo_subtext": "IT SOLUTIONS",
+      "links": [
+        { "name": "Home", "href": "/" },
+        { "name": "About Us", "href": "/about" },
+        {
+          "name": "Services",
+          "href": "/services",
+          "sublinks": [
+            { "name": "Web Development", "href": "/services/web-development" },
+            { "name": "Mobile App Development", "href": "/services/mobile-app-development" },
+            { "name": "Cloud Solutions", "href": "/services/cloud-solutions" },
+            { "name": "IT Consulting", "href": "/services/it-consulting" }
+          ]
+        },
+        { "name": "Projects", "href": "/projects" },
+        { "name": "Blog", "href": "/blog" },
+        { "name": "Contact Us", "href": "/contact" }
+      ],
+      "button_text": "Get a Quote",
+      "button_link": "/contact"
+    },
+    "Footer": {
+      "logo_image": "/logo/whitelogo.png",
+      "logo_text": "TechVerzo",
+      "logo_subtext": "IT SOLUTIONS",
+      "description": "We deliver innovative IT solutions to help businesses grow, improve efficiency and stay ahead in the digital world.",
+      "socials": [
+        { "icon": "facebook", "href": "#" },
+        { "icon": "linkedin", "href": "#" },
+        { "icon": "instagram", "href": "#" },
+        { "icon": "youtube", "href": "#" }
+      ],
+      "quick_links": [
+        { "name": "Home", "href": "/" },
+        { "name": "About Us", "href": "/about" },
+        { "name": "Services", "href": "/services" },
+        { "name": "Projects", "href": "/projects" },
+        { "name": "FAQ", "href": "/faq" },
+        { "name": "Gallery", "href": "/gallery" },
+        { "name": "Contact Us", "href": "/contact" },
+        { "name": "Get a Quote", "href": "/contact" },
+        { "name": "Thank You", "href": "/thank-you" }
+      ],
+      "our_services": [
+        { "name": "Web Development", "href": "/services/web-development" },
+        { "name": "Mobile App Development", "href": "/services/mobile-app-development" },
+        { "name": "Software Development", "href": "/services/custom-software-development" },
+        { "name": "UI/UX Design", "href": "/services/ui-ux-design" },
+        { "name": "Digital Marketing", "href": "/services/digital-marketing" },
+        { "name": "IT Consulting", "href": "/services/it-consulting" },
+        { "name": "Cloud Solutions", "href": "/services/cloud-solutions" },
+        { "name": "Ongoing Support", "href": "/services/ongoing-support" }
+      ],
+      "contact": {
+        "phone": "+91 98765 43210",
+        "email": "info@techverzo.com",
+        "address": "Sector 62, Noida, Uttar Pradesh, India",
+        "hours": "Mon – Sat: 9:00 AM – 6:00 PM\nSunday: Closed"
+      },
+      "copyright": "© 2026 TechVerzo IT Solutions. All Rights Reserved."
+    }
+  },
+  "categories": {
+    "Software": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": { "title": "TechVerzo - Innovative Software Solutions" },
+              "components": [
+                { "key": "HeroSection", "component": "Hero" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "ServicesSection", "component": "Services" },
+                { "key": "ProjectsSection", "component": "Projects" },
+                { "key": "TestimonialsSection", "component": "Testimonials" },
+                { "key": "BlogSection", "component": "Blog" }
+              ]
+            },
+            "about": {
+              "title": "About Us",
+              "pageName": "About Us",
+              "metadata": { "title": "TechVerzo - About Us" },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "about" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "WhyChooseSection", "component": "WhyChoose" }
+              ]
+            },
+            "services": {
+              "title": "Services",
+              "pageName": "Services",
+              "metadata": { "title": "TechVerzo - Services" },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "services" },
+                { "key": "ServiceCardsSection", "component": "ServiceCards" }
+              ]
+            }
+          },
+          "sections": {
+            "breadcrumb": {
+              "image": "/banner/1.png",
+              "about": {
+                "subtitle": "KNOW MORE",
+                "title": "About",
+                "title_highlight": "Us",
+                "description": "We are a team of passionate professionals dedicated to delivering innovative IT solutions that help businesses grow and succeed in the digital era."
+              },
+              "services": {
+                "subtitle": "OUR SERVICES",
+                "title": "Our",
+                "title_highlight": "Services",
+                "description": "We offer a wide range of IT solutions designed to help businesses innovate, streamline operations and achieve their goals."
+              },
+              "service_detail": {
+                "subtitle": "SERVICE DETAILS",
+                "title": "Service",
+                "title_highlight": "Details",
+                "description": "Discover how our customized IT solutions can help your business overcome challenges, improve efficiency, and achieve long-term growth."
+              }
+            },
+            "service_cards": {
+              "subtitle": "OUR SERVICES",
+              "title": "Our",
+              "title_highlight": "Services",
+              "button": { "text": "Discover More", "href": "/contact" },
+              "items": [
+                { "icon": "code", "title": "Web Development", "description": "We build fast, secure and scalable websites that help your business grow online.", "image": "/projects/1.png", "href": "/services/web-development" },
+                { "icon": "smartphone", "title": "Mobile App Development", "description": "We create user-friendly mobile applications tailored to your business needs.", "image": "/projects/2.png", "href": "/services/mobile-app-development" },
+                { "icon": "pen", "title": "UI/UX Design", "description": "We design intuitive and engaging user experiences that keep your customers coming back.", "image": "/projects/3.png", "href": "/services/ui-ux-design" },
+                { "icon": "cloud", "title": "Cloud Solutions", "description": "We provide secure and reliable cloud solutions to scale your business with ease.", "image": "/projects/4.png", "href": "/services/cloud-solutions" },
+                { "icon": "chart", "title": "Digital Marketing", "description": "We help you reach the right audience and grow your brand with data-driven strategies.", "image": "/projects/5.png", "href": "/services/digital-marketing" },
+                { "icon": "users", "title": "IT Consulting", "description": "We offer expert guidance and IT consulting services to optimize your business operations.", "image": "/projects/6.png", "href": "/services/it-consulting" }
+              ]
+            },
+            "service_details": [
+              {
+                "slug": "custom-software-development",
+                "title": "Custom Software Development",
+                "image": "/projects/1.png",
+                "eyebrow": "CUSTOM SOFTWARE DEVELOPMENT",
+                "heading": "Tailored Software Solutions for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We build custom software solutions that streamline your operations, solve complex business challenges and help you achieve your goals faster and smarter. Our development process focuses on quality, scalability and user-friendly experiences to ensure long-term success for your business.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "With years of experience, we have helped businesses across various industries build reliable and high-performing software solutions. Our team combines technical expertise with industry knowledge to deliver innovative solutions that create real business value. We understand your unique requirements and work closely with you to turn ideas into powerful digital products that drive efficiency, improve customer experience and support your growth journey.",
+                "options_title": "Service Options",
+                "options_intro": "We offer a range of custom software development services to meet diverse business needs, including:",
+                "options": [
+                  "Web-based software solutions tailored to your requirements",
+                  "Enterprise software development for large organizations",
+                  "API integration and third-party system connectivity",
+                  "Ongoing support, maintenance and feature enhancements"
+                ],
+                "gallery": ["/projects/2.png", "/projects/3.png", "/projects/4.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We follow a structured and agile development process to ensure transparency, quality and timely delivery. From initial consultation to deployment and ongoing support, we work closely with you at every stage to build software that aligns with your business goals. Our process includes requirement analysis, planning, design, development, testing and deployment, ensuring a smooth and successful journey from concept to completion.",
+                "process_image": "/projects/5.png"
+              },
+              {
+                "slug": "web-app-development",
+                "title": "Web & App Development",
+                "image": "/projects/2.png",
+                "eyebrow": "WEB & APP DEVELOPMENT",
+                "heading": "Web and Mobile Products for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We design and build websites and apps that are fast, secure and easy to use, so your customers can reach you on every device.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "Our team plans, designs and ships web and mobile products that match your workflow. We stay with you from the first screen through launch and later updates.",
+                "options_title": "Service Options",
+                "options_intro": "Web and app services we deliver include:",
+                "options": ["Responsive business websites", "Cross-platform mobile apps", "Admin dashboards and portals", "Ongoing updates and support"],
+                "gallery": ["/projects/1.png", "/projects/3.png", "/blog/1.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We start with your goals, shape the user flow, then design, build and test before launch. You see progress at every step.",
+                "process_image": "/projects/6.png"
+              },
+              {
+                "slug": "web-development",
+                "title": "Web Development",
+                "image": "/projects/1.png",
+                "eyebrow": "WEB DEVELOPMENT",
+                "heading": "Fast Websites Built for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We build fast, secure and scalable websites that help your business grow online and stay easy to manage.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "From landing pages to full platforms, we shape the structure, design and code around how your customers actually use the site.",
+                "options_title": "Service Options",
+                "options_intro": "Web development services include:",
+                "options": ["Business and marketing websites", "Custom web applications", "Performance and security setup", "Content updates and maintenance"],
+                "gallery": ["/projects/2.png", "/blog/2.png", "/projects/4.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We map pages, design the layout, build the site and test it across devices before it goes live.",
+                "process_image": "/projects/3.png"
+              },
+              {
+                "slug": "mobile-app-development",
+                "title": "Mobile App Development",
+                "image": "/projects/2.png",
+                "eyebrow": "MOBILE APP DEVELOPMENT",
+                "heading": "Mobile Apps Tailored for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We create user-friendly mobile applications tailored to your business needs on both major app stores.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We plan the screens, build the app and keep the experience simple so people can finish tasks quickly.",
+                "options_title": "Service Options",
+                "options_intro": "Mobile services include:",
+                "options": ["iOS and Android apps", "Cross-platform builds", "App store release support", "Updates and maintenance"],
+                "gallery": ["/projects/5.png", "/projects/6.png", "/blog/3.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We define the features, design the flow, develop the app and test it before release.",
+                "process_image": "/projects/1.png"
+              },
+              {
+                "slug": "cloud-solutions",
+                "title": "Cloud Solutions",
+                "image": "/projects/4.png",
+                "eyebrow": "CLOUD SOLUTIONS",
+                "heading": "Secure Cloud Systems for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We provide secure and reliable cloud solutions so your systems can scale without slowing the team down.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We move, host and look after the parts of your software that need to stay available as the business grows.",
+                "options_title": "Service Options",
+                "options_intro": "Cloud services include:",
+                "options": ["Cloud setup and migration", "Secure hosting", "Backup and monitoring", "Ongoing cloud support"],
+                "gallery": ["/projects/3.png", "/projects/5.png", "/blog/4.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We review what you run today, plan the move, set up the cloud and keep it monitored after launch.",
+                "process_image": "/projects/2.png"
+              },
+              {
+                "slug": "it-consulting",
+                "title": "IT Consulting",
+                "image": "/projects/6.png",
+                "eyebrow": "IT CONSULTING",
+                "heading": "Clear IT Guidance for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We offer expert guidance and IT consulting so you can choose the right systems and spend with confidence.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We look at your current tools, point out what is slowing work down and recommend a practical plan.",
+                "options_title": "Service Options",
+                "options_intro": "Consulting services include:",
+                "options": ["Technology planning", "System reviews", "Vendor and tool selection", "Implementation support"],
+                "gallery": ["/projects/1.png", "/projects/4.png", "/blog/5.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We listen first, review the setup, share a clear plan and stay available while you put it in place.",
+                "process_image": "/projects/5.png"
+              },
+              {
+                "slug": "ui-ux-design",
+                "title": "UI/UX Design",
+                "image": "/projects/3.png",
+                "eyebrow": "UI/UX DESIGN",
+                "heading": "Interfaces People Enjoy for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We design intuitive and engaging experiences that keep customers moving through your product.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We study how people use your product, then design screens that feel clear and consistent.",
+                "options_title": "Service Options",
+                "options_intro": "Design services include:",
+                "options": ["User research", "Wireframes and prototypes", "Visual interface design", "Design updates after launch"],
+                "gallery": ["/projects/2.png", "/blog/1.png", "/projects/6.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We sketch the flow, test the idea, refine the visuals and hand off a design the build team can follow.",
+                "process_image": "/projects/4.png"
+              },
+              {
+                "slug": "digital-marketing",
+                "title": "Digital Marketing",
+                "image": "/projects/5.png",
+                "eyebrow": "DIGITAL MARKETING",
+                "heading": "Marketing That Supports",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We help you reach the right audience and grow your brand with clear, measurable campaigns.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We plan the message, choose the channels and report what is working so you can keep investing in the right places.",
+                "options_title": "Service Options",
+                "options_intro": "Marketing services include:",
+                "options": ["Campaign planning", "Search and social promotion", "Content support", "Performance reporting"],
+                "gallery": ["/projects/3.png", "/blog/2.png", "/projects/1.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We set the goal, launch the campaign, watch the results and adjust the plan with you.",
+                "process_image": "/projects/6.png"
+              },
+              {
+                "slug": "data-management",
+                "title": "Data Management",
+                "image": "/projects/4.png",
+                "eyebrow": "DATA MANAGEMENT",
+                "heading": "Organised Data for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We help you store, connect and use business data so teams can trust the numbers they see.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We tidy scattered information, set up reliable reporting and keep the data easy to maintain.",
+                "options_title": "Service Options",
+                "options_intro": "Data services include:",
+                "options": ["Data cleanup", "Reporting dashboards", "System connections", "Ongoing data support"],
+                "gallery": ["/projects/5.png", "/projects/2.png", "/blog/3.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We review your sources, structure the data, build the reports and check them with your team.",
+                "process_image": "/projects/1.png"
+              },
+              {
+                "slug": "business-process-automation",
+                "title": "Business Process Automation",
+                "image": "/projects/6.png",
+                "eyebrow": "BUSINESS PROCESS AUTOMATION",
+                "heading": "Fewer Manual Steps for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We automate repeat work so your team spends time on decisions instead of copying information between tools.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "We map the current process, remove the slow steps and connect the systems that should talk to each other.",
+                "options_title": "Service Options",
+                "options_intro": "Automation services include:",
+                "options": ["Process mapping", "Workflow automation", "Tool integrations", "Support after rollout"],
+                "gallery": ["/projects/1.png", "/projects/3.png", "/blog/4.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We document the process, build the automation, test it with your team and then switch it on.",
+                "process_image": "/projects/2.png"
+              },
+              {
+                "slug": "ongoing-support",
+                "title": "Ongoing Support",
+                "image": "/projects/5.png",
+                "eyebrow": "ONGOING SUPPORT",
+                "heading": "Steady Support for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We stay available after launch with updates, fixes and small improvements so your systems keep running.",
+                "partner_title": "A Partner in Your Digital Transformation",
+                "partner_text": "You get a team that already knows the product and can respond when something needs attention.",
+                "options_title": "Service Options",
+                "options_intro": "Support services include:",
+                "options": ["Issue fixes", "Regular updates", "Performance checks", "Small feature improvements"],
+                "gallery": ["/projects/4.png", "/projects/6.png", "/blog/5.png"],
+                "process_title": "Our Development Process",
+                "process_text": "We take the request, confirm the change, ship the update and confirm it works in your environment.",
+                "process_image": "/projects/3.png"
+              }
+            ],
+            "why_choose": {
+              "subtitle": "WHY CHOOSE US",
+              "title_line1": "We deliver smarter",
+              "title_highlight": "software solutions",
+              "title_line2": "for your business",
+              "image": "/img/whychooseus.png",
+              "items": [
+                { "icon": "users", "title": "Experienced Professionals", "description": "Our skilled developers, designers and strategists bring years of experience to deliver high-quality software solutions that drive real business results." },
+                { "icon": "bulb", "title": "Tailored Solutions", "description": "We understand that every business is unique, which is why we create customized software solutions to match your specific goals and requirements." },
+                { "icon": "support", "title": "Reliable Support", "description": "We are committed to building long-term relationships with our clients by providing ongoing support, regular updates and maintenance to keep your systems running smoothly." }
+              ]
+            },
+            "hero": {
+              "slides": [
+                {
+                  "subtitle": "IT SOLUTIONS",
+                  "title_line1": "Innovative Software",
+                  "title_line2": "Solutions For",
+                  "title_highlight": "A Smarter Tomorrow",
+                  "description": "We build custom software solutions that help businesses innovate, grow and stay ahead in the digital world.",
+                  "primary_button": { "text": "Get Started", "href": "/contact" },
+                  "image": "/banner/1.png"
+                },
+                {
+                  "subtitle": "IT SOLUTIONS",
+                  "title_line1": "Custom Apps Built",
+                  "title_line2": "For Modern",
+                  "title_highlight": "Growing Teams",
+                  "description": "From web platforms to mobile apps, we design products that stay fast, secure, and easy to scale.",
+                  "primary_button": { "text": "Get Started", "href": "/contact" },
+                  "image": "/banner/2.png"
+                },
+                {
+                  "subtitle": "IT SOLUTIONS",
+                  "title_line1": "Cloud Systems Built",
+                  "title_line2": "To Keep Your",
+                  "title_highlight": "Business Moving",
+                  "description": "Reliable cloud, support, and consulting so your software keeps working as your company grows.",
+                  "primary_button": { "text": "Get Started", "href": "/contact" },
+                  "image": "/banner/3.png"
+                }
+              ]
+            },
+            "about": {
+              "subtitle": "ABOUT US",
+              "title_line1": "Your Trusted Partner In",
+              "title_highlight": "Innovative Software Solutions",
+              "description": "At TechView, we specialize in delivering custom software solutions that empower businesses to grow, innovate and stay ahead in the digital world.",
+              "image": "/img/about.png",
+              "features": [
+                { "icon": "users", "title": "Expert Team", "description": "Our experienced developers, designers and strategists work together to deliver high-quality solutions tailored to your business goals." },
+                { "icon": "bulb", "title": "Client-Focused Approach", "description": "We listen, understand and create solutions that align with your unique needs, ensuring long-term success." },
+                { "icon": "chart", "title": "Reliable & Scalable Solutions", "description": "From startups to enterprises, we build secure, scalable and future-ready software that grows with your business." }
+              ],
+              "button": { "text": "Learn More", "href": "/about" }
+            },
+            "services": {
+              "subtitle": "OUR SERVICES",
+              "title_line1": "What We Offer For",
+              "title_highlight": "Your Business",
+              "description": "We provide end-to-end software solutions to help businesses innovate, grow and stay ahead in the digital world.",
+              "items": [
+                { "icon": "code", "color": "#3b6bff", "title": "Custom Software Development", "description": "We build tailored software solutions to meet your unique business needs and goals." },
+                { "icon": "smartphone", "color": "#ff4b3a", "title": "Mobile App Development", "description": "Create high-performance mobile applications for iOS and Android platforms." },
+                { "icon": "cloud", "color": "#12c4a8", "title": "Cloud Solutions", "description": "Scalable and secure cloud solutions to improve efficiency and support your business growth." },
+                { "icon": "gear", "color": "#a855f7", "title": "IT Consulting", "description": "Expert guidance and strategic IT solutions to streamline your business operations." },
+                { "icon": "chart", "color": "#f5b423", "title": "Web Development", "description": "Modern, responsive and high-performing websites that enhance your brand presence." },
+                { "icon": "shield", "color": "#3b82f6", "title": "Ongoing Support & Maintenance", "description": "Reliable support and maintenance to keep your systems secure and running smoothly." }
+              ]
+            },
+            "projects": {
+              "subtitle": "FEATURED PROJECTS",
+              "title_line1": "Our Latest",
+              "title_highlight": "Projects",
+              "items": [
+                { "title": "Business Management System", "category": "Web Application", "image": "/projects/1.png", "href": "/projects" },
+                { "title": "E-Commerce Platform", "category": "Web Development", "image": "/projects/2.png", "href": "/projects" },
+                { "title": "Digital Marketing Dashboard", "category": "Web Application", "image": "/projects/3.png", "href": "/projects" },
+                { "title": "Mobile App Development", "category": "App Development", "image": "/projects/4.png", "href": "/projects" },
+                { "title": "Cloud Solution", "category": "Cloud Computing", "image": "/projects/5.png", "href": "/projects" },
+                { "title": "UI/UX Design", "category": "Creative Design", "image": "/projects/6.png", "href": "/projects" }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "TESTIMONIALS",
+              "title_line1": "What Our Clients Are",
+              "title_highlight": "Saying?",
+              "reviews": [
+                {
+                  "text": "Working with this team has been a true game changer for our whole business today. They understood our goals well, delivered a modern solution quickly, and gave excellent support throughout the entire project. The final results exceeded all our expectations.",
+                  "author": "Jordan Hartley",
+                  "role": "Business Owner",
+                  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+                  "image": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=1200&q=80"
+                },
+                {
+                  "text": "The product launched right on time and the team stayed very clear at every single step. Our clients quickly noticed the real difference in speed, design, and ease of use within the first month. Their ongoing support stayed very strong.",
+                  "author": "Emily Carter",
+                  "role": "Marketing Lead",
+                  "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+                  "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+                },
+                {
+                  "text": "From the first call to the final release, everything felt organized, calm, and very clear. We now have great software our team enjoys using every single day, and new features are always easy to add whenever we grow further ahead.",
+                  "author": "Daniel Brooks",
+                  "role": "Operations Head",
+                  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+                  "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80"
+                }
+              ]
+            },
+            "blog": {
+              "subtitle": "OUR BLOG",
+              "title_line1": "Insights, Tips &",
+              "title_highlight": "Updates",
+              "description": "Stay updated with the latest industry trends, expert tips, and useful insights to help your business grow faster and smarter.",
+              "button": { "text": "View All Blog", "href": "/blog" },
+              "image": "/img/bloggirl.png",
+              "badge": "LATEST BLOG",
+              "heading": "Our Latest",
+              "heading_highlight": "Blog",
+              "items": [
+                { "day": "28", "month": "Sep", "title": "Top Digital Marketing Strategies for Business Growth", "excerpt": "Discover the most effective digital marketing strategies to grow your business in 2026.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
+                { "day": "25", "month": "Sep", "title": "How SEO Can Boost Your Website Traffic", "excerpt": "Learn how a strong SEO strategy can increase visibility and bring more organic traffic to your website.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
+                { "day": "22", "month": "Sep", "title": "The Power of Social Media for Brand Awareness", "excerpt": "Explore how social media can help you build a strong brand presence and connect with your audience.", "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
+                { "day": "18", "month": "Sep", "title": "Why a Good Website Design Matters", "excerpt": "Find out how a well-designed website improves user experience and boosts conversions.", "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
+                { "day": "15", "month": "Sep", "title": "PPC Advertising Tips for Better ROI", "excerpt": "Get expert tips on running successful PPC campaigns and maximizing your return on investment.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
+                { "day": "12", "month": "Sep", "title": "Content Marketing Ideas to Engage Your Audience", "excerpt": "Explore creative content ideas that attract, engage, and convert your target audience.", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80", "href": "/blog" }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
