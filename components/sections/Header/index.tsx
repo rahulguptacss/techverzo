@@ -20,7 +20,7 @@ export default function Header({ data }: { data: HeaderData }) {
   const active = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
 
   return (
-    <div className="sticky top-0 z-50 px-4 pt-4 pb-3 sm:px-6">
+    <div className="sticky top-0 z-50 px-4 pt-4 pb-3 sm:px-5">
       <motion.header
         initial={{ y: -18, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

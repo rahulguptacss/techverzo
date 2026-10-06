@@ -71,7 +71,7 @@ export default function Topbar({ data }: { data: TopbarData }) {
       transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
       className="hidden w-full bg-[#2f2ad4] text-white sm:block"
     >
-      <div className="mx-auto flex h-[44px] max-w-[1240px] items-center justify-between gap-2 px-3 sm:h-[48px] sm:px-8">
+      <div className="mx-auto flex h-[44px] max-w-[1240px] items-center justify-between gap-2 px-4 sm:h-[48px] sm:px-5">
         <div className="flex min-w-0 flex-1 items-center text-[12px] font-medium sm:text-[13.5px]">
           {data.contact_info.map((item, index) => {
             const href = hrefFor(item.icon, item.value);
@@ -106,6 +106,8 @@ export default function Topbar({ data }: { data: TopbarData }) {
             <motion.a
               key={social.icon}
               href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label={social.icon}
               initial={{ opacity: 0, scale: 0.6 }}
               animate={{ opacity: 1, scale: 1 }}

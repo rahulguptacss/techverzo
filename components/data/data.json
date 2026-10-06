@@ -2,15 +2,36 @@
   "common": {
     "Topbar": {
       "contact_info": [
-        { "icon": "Mail", "value": "info@techverzo.com" },
-        { "icon": "Phone", "value": "+91 98765 43210" },
-        { "icon": "MapPin", "value": "Noida, India" }
+        {
+          "icon": "Mail",
+          "value": "info@xyz.com"
+        },
+        {
+          "icon": "Phone",
+          "value": "+100000000000"
+        },
+        {
+          "icon": "MapPin",
+          "value": "123 Education Lane, New York, NY 10001"
+        }
       ],
       "socials": [
-        { "icon": "Facebook", "href": "#" },
-        { "icon": "Linkedin", "href": "#" },
-        { "icon": "Instagram", "href": "#" },
-        { "icon": "Youtube", "href": "#" }
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com"
+        }
       ]
     },
     "Header": {
@@ -18,24 +39,37 @@
       "logo_text": "TechVerzo",
       "logo_subtext": "IT SOLUTIONS",
       "links": [
-        { "name": "Home", "href": "/" },
-        { "name": "About Us", "href": "/about" },
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
         {
           "name": "Services",
-          "href": "/services",
-          "sublinks": [
-            { "name": "Web Development", "href": "/services/web-development" },
-            { "name": "Mobile App Development", "href": "/services/mobile-app-development" },
-            { "name": "Cloud Solutions", "href": "/services/cloud-solutions" },
-            { "name": "IT Consulting", "href": "/services/it-consulting" }
-          ]
+          "href": "/services"
         },
-        { "name": "Projects", "href": "/projects" },
-        { "name": "Blog", "href": "/blog" },
-        { "name": "Contact Us", "href": "/contact" }
+        {
+          "name": "Projects",
+          "href": "/projects"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
       ],
       "button_text": "Get a Quote",
-      "button_link": "/contact"
+      "button_link": "/get-a-quote"
     },
     "Footer": {
       "logo_image": "/logo/whitelogo.png",
@@ -43,39 +77,102 @@
       "logo_subtext": "IT SOLUTIONS",
       "description": "We deliver innovative IT solutions to help businesses grow, improve efficiency and stay ahead in the digital world.",
       "socials": [
-        { "icon": "facebook", "href": "#" },
-        { "icon": "linkedin", "href": "#" },
-        { "icon": "instagram", "href": "#" },
-        { "icon": "youtube", "href": "#" }
+        {
+          "icon": "facebook",
+          "href": "https://www.facebook.com"
+        },
+        {
+          "icon": "linkedin",
+          "href": "https://www.linkedin.com"
+        },
+        {
+          "icon": "instagram",
+          "href": "https://www.instagram.com"
+        },
+        {
+          "icon": "youtube",
+          "href": "https://www.youtube.com"
+        }
       ],
       "quick_links": [
-        { "name": "Home", "href": "/" },
-        { "name": "About Us", "href": "/about" },
-        { "name": "Services", "href": "/services" },
-        { "name": "Projects", "href": "/projects" },
-        { "name": "FAQ", "href": "/faq" },
-        { "name": "Gallery", "href": "/gallery" },
-        { "name": "Contact Us", "href": "/contact" },
-        { "name": "Get a Quote", "href": "/contact" },
-        { "name": "Thank You", "href": "/thank-you" }
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Services",
+          "href": "/services"
+        },
+        {
+          "name": "Projects",
+          "href": "/projects"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        },
+        {
+          "name": "Get a Quote",
+          "href": "/get-a-quote"
+        },
+        {
+          "name": "Thank You",
+          "href": "/thank-you"
+        }
       ],
       "our_services": [
-        { "name": "Web Development", "href": "/services/web-development" },
-        { "name": "Mobile App Development", "href": "/services/mobile-app-development" },
-        { "name": "Software Development", "href": "/services/custom-software-development" },
-        { "name": "UI/UX Design", "href": "/services/ui-ux-design" },
-        { "name": "Digital Marketing", "href": "/services/digital-marketing" },
-        { "name": "IT Consulting", "href": "/services/it-consulting" },
-        { "name": "Cloud Solutions", "href": "/services/cloud-solutions" },
-        { "name": "Ongoing Support", "href": "/services/ongoing-support" }
+        {
+          "name": "Web Development",
+          "href": "/services/web-development"
+        },
+        {
+          "name": "Mobile App Development",
+          "href": "/services/mobile-app-development"
+        },
+        {
+          "name": "Software Development",
+          "href": "/services/custom-software-development"
+        },
+        {
+          "name": "UI/UX Design",
+          "href": "/services/ui-ux-design"
+        },
+        {
+          "name": "Digital Marketing",
+          "href": "/services/digital-marketing"
+        },
+        {
+          "name": "IT Consulting",
+          "href": "/services/it-consulting"
+        },
+        {
+          "name": "Cloud Solutions",
+          "href": "/services/cloud-solutions"
+        },
+        {
+          "name": "Ongoing Support",
+          "href": "/services/ongoing-support"
+        }
       ],
       "contact": {
-        "phone": "+91 98765 43210",
-        "email": "info@techverzo.com",
-        "address": "Sector 62, Noida, Uttar Pradesh, India",
+        "phone": "+100000000000",
+        "email": "info@xyz.com",
+        "address": "123 Education Lane, New York, NY 10001",
         "hours": "Mon – Sat: 9:00 AM – 6:00 PM\nSunday: Closed"
       },
-      "copyright": "© 2026 TechVerzo IT Solutions. All Rights Reserved."
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
     }
   },
   "categories": {
@@ -86,39 +183,206 @@
             "home": {
               "title": "Home",
               "pageName": "Home",
-              "metadata": { "title": "TechVerzo - Innovative Software Solutions" },
+              "metadata": {
+                "title": "TechVerzo - Innovative Software Solutions"
+              },
               "components": [
-                { "key": "HeroSection", "component": "Hero" },
-                { "key": "AboutSection", "component": "About" },
-                { "key": "ServicesSection", "component": "Services" },
-                { "key": "ProjectsSection", "component": "Projects" },
-                { "key": "TestimonialsSection", "component": "Testimonials" },
-                { "key": "BlogSection", "component": "Blog" }
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "ProjectsSection",
+                  "component": "Projects"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog"
+                }
               ]
             },
             "about": {
               "title": "About Us",
               "pageName": "About Us",
-              "metadata": { "title": "TechVerzo - About Us" },
+              "metadata": {
+                "title": "TechVerzo - About Us"
+              },
               "components": [
-                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "about" },
-                { "key": "AboutSection", "component": "About" },
-                { "key": "WhyChooseSection", "component": "WhyChoose" }
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "dataKey": "about"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                }
               ]
             },
             "services": {
               "title": "Services",
               "pageName": "Services",
-              "metadata": { "title": "TechVerzo - Services" },
+              "metadata": {
+                "title": "TechVerzo - Services"
+              },
               "components": [
-                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "services" },
-                { "key": "ServiceCardsSection", "component": "ServiceCards" }
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "dataKey": "services"
+                },
+                {
+                  "key": "ServiceCardsSection",
+                  "component": "ServiceCards"
+                }
+              ]
+            },
+            "projects": {
+              "title": "Projects",
+              "pageName": "Projects",
+              "metadata": {
+                "title": "TechVerzo - Projects"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "dataKey": "projects"
+                },
+                {
+                  "key": "ProjectsSection",
+                  "component": "Projects",
+                  "dataKey": "page"
+                }
+              ]
+            },
+            "blog": {
+              "title": "Blog",
+              "pageName": "Blog",
+              "metadata": {
+                "title": "TechVerzo - Blog"
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "dataKey": "blog"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog",
+                  "dataKey": "page"
+                }
+              ]
+            },
+            "gallery": {
+              "title": "Gallery",
+              "pageName": "Gallery",
+              "metadata": {
+                "title": "TechVerzo - Gallery"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "gallery" },
+                { "key": "PhotoGallerySection", "component": "PhotoGallery" },
+                { "key": "VideoGallerySection", "component": "VideoGallery" }
+              ]
+            },
+            "faq": {
+              "title": "FAQ",
+              "pageName": "FAQ",
+              "metadata": {
+                "title": "TechVerzo - FAQ"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "faq" },
+                { "key": "FaqSection", "component": "Faq" }
+              ]
+            },
+            "contact": {
+              "title": "Contact",
+              "pageName": "Contact",
+              "metadata": {
+                "title": "TechVerzo - Contact Us"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "contact" },
+                { "key": "ContactSection", "component": "Contact" }
+              ]
+            },
+            "quote": {
+              "title": "Get a Quote",
+              "pageName": "Get a Quote",
+              "metadata": {
+                "title": "TechVerzo - Get a Quote"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "quote" },
+                { "key": "QuoteSection", "component": "Quote" }
+              ]
+            },
+            "service_detail": {
+              "title": "Service Details",
+              "pageName": "Service Details",
+              "metadata": {
+                "title": "TechVerzo - Service Details"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "service_detail" },
+                { "key": "ServiceDetailSection", "component": "ServiceDetail" }
+              ]
+            },
+            "project_detail": {
+              "title": "Project Details",
+              "pageName": "Project Details",
+              "metadata": {
+                "title": "TechVerzo - Project Details"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "project_detail" },
+                { "key": "ProjectDetailSection", "component": "ProjectDetail" }
+              ]
+            },
+            "blog_detail": {
+              "title": "Blog Details",
+              "pageName": "Blog Details",
+              "metadata": {
+                "title": "TechVerzo - Blog Details"
+              },
+              "components": [
+                { "key": "BreadcrumbSection", "component": "Breadcrumb", "dataKey": "blog_detail" },
+                { "key": "BlogDetailSection", "component": "BlogDetail" }
+              ]
+            },
+            "thank_you": {
+              "title": "Thank You",
+              "pageName": "Thank You",
+              "metadata": {
+                "title": "TechVerzo - Thank You"
+              },
+              "components": [
+                { "key": "ThankYouSection", "component": "ThankYou" }
               ]
             }
           },
           "sections": {
             "breadcrumb": {
-              "image": "/banner/1.png",
+              "image": "/img/breadcrumbbanner.png",
               "about": {
                 "subtitle": "KNOW MORE",
                 "title": "About",
@@ -136,20 +400,245 @@
                 "title": "Service",
                 "title_highlight": "Details",
                 "description": "Discover how our customized IT solutions can help your business overcome challenges, improve efficiency, and achieve long-term growth."
+              },
+              "projects": {
+                "subtitle": "OUR PROJECTS",
+                "title": "Our",
+                "title_highlight": "Projects",
+                "description": "Explore our successful projects that showcase our expertise, innovation and commitment to delivering real business value."
+              },
+              "project_detail": {
+                "subtitle": "PROJECT DETAILS",
+                "title": "Project",
+                "title_highlight": "Details",
+                "description": "Explore how our IT solutions have helped businesses achieve successful projects and measurable results."
+              },
+              "blog": {
+                "subtitle": "OUR BLOG",
+                "title": "Our",
+                "title_highlight": "Blog",
+                "description": "Discover the latest insights, industry trends, expert tips and updates from the world of technology and IT solutions."
+              },
+              "blog_detail": {
+                "subtitle": "BLOG DETAILS",
+                "title": "Blog",
+                "title_highlight": "Details",
+                "description": "Explore in-depth insights, expert opinions and the latest trends in technology, innovation and IT solutions."
+              },
+              "gallery": {
+                "subtitle": "OUR GALLERY",
+                "title": "Our",
+                "title_highlight": "Gallery",
+                "description": "Take a look at our workspace, team, events and success stories that reflect our journey, creativity and commitment to excellence."
+              },
+              "faq": {
+                "subtitle": "FAQs",
+                "title": "Frequently Asked",
+                "title_highlight": "Questions",
+                "description": "Find quick answers to common questions about our IT solutions, services, process and support."
+              },
+              "contact": {
+                "subtitle": "CONTACT US",
+                "title": "Contact",
+                "title_highlight": "Us",
+                "description": "Have a question or a project in mind? Reach out and our team will get back to you shortly."
+              },
+              "quote": {
+                "subtitle": "GET A QUOTE",
+                "title": "Get a",
+                "title_highlight": "Quote",
+                "description": "Tell us about your project and we will share a clear quote for the right IT solution."
               }
+            },
+            "photo_gallery": {
+              "badge": "GALLERY",
+              "title": "Our",
+              "title_highlight": "Gallery",
+              "description": "Explore snapshots from our work, office environment, team activities and client meetings. These images showcase our commitment to delivering innovative digital solutions.",
+              "images": ["/gallery/1.png", "/gallery/2.png", "/gallery/3.png", "/gallery/4.png", "/gallery/5.png", "/gallery/6.png", "/gallery/7.png", "/gallery/8.png", "/gallery/10.png", "/gallery/11.png", "/gallery/12.png"]
+            },
+            "video_gallery": {
+              "badge": "VIDEOS",
+              "title": "Our",
+              "title_highlight": "Videos",
+              "description": "Watch our videos to get a closer look at our work process, client feedback, office culture and project highlights. These videos give you a better understanding of how we create digital solutions that make a difference.",
+              "items": [
+                { "image": "/gallery/7.png", "duration": "09:56", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
+                { "image": "/gallery/8.png", "duration": "10:53", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" },
+                { "image": "/gallery/10.png", "duration": "14:48", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4" },
+                { "image": "/gallery/11.png", "duration": "12:14", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" },
+                { "image": "/gallery/12.png", "duration": "09:56", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
+                { "image": "/gallery/6.png", "duration": "10:53", "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" }
+              ]
+            },
+            "faq": {
+              "crumb": "FAQ",
+              "badge": "FAQ",
+              "title": "Frequently Asked",
+              "title_highlight": "Questions",
+              "description": "Our FAQ section answers common questions about our software development services, process, technology and support. Find quick and reliable information to help you make informed decisions.",
+              "points": [
+                "Quick and clear answers",
+                "Helpful information about our services",
+                "Still have a question? Our team is here to help"
+              ],
+              "items": [
+                { "question": "What services do you offer?", "answer": "We offer a wide range of software development services including web application development, mobile app development, cloud solutions, UI/UX design, IT consulting, digital marketing and business process automation, tailored to your business needs.", "image": "/faq/1.png" },
+                { "question": "How long does it take to complete a project?", "answer": "Timelines depend on the scope, features and feedback cycles. A focused website can take a few weeks, while a custom application usually takes a few months. We share a clear schedule before work begins.", "image": "/faq/2.png" },
+                { "question": "Do you provide ongoing support and maintenance?", "answer": "Yes. After launch we offer support plans for updates, bug fixes, security checks and small improvements so your product stays reliable as your business grows.", "image": "/faq/3.png" },
+                { "question": "Can you work with our existing team?", "answer": "Yes. We can join your current developers, designers or internal IT team and work alongside them on planning, delivery and handover.", "image": "/faq/4.png" },
+                { "question": "What technologies do you use?", "answer": "We use modern web and mobile stacks such as React, Next.js, Node.js and cloud platforms, and we choose the tools that fit your product, timeline and long-term maintenance.", "image": "/faq/5.png" }
+              ]
+            },
+            "contact": {
+              "eyebrow": "GET IN TOUCH",
+              "title": "We'd Love to Hear From You",
+              "description": "Have questions about our services, need a quote, or want to start a project? Our team is here to help. Reach out through any of the options below or fill out the form and we'll get back to you as soon as possible.",
+              "cards": [
+                { "title": "Call Us", "lines": ["+100000000000"] },
+                { "title": "Email Us", "lines": ["info@xyz.com", "We usually respond within 24 hours."] },
+                { "title": "Our Location", "lines": ["123 Education Lane,", "New York, NY 10001"] }
+              ],
+              "follow_label": "Follow Us",
+              "socials": [
+                { "name": "Facebook", "icon": "facebook", "href": "https://www.facebook.com" },
+                { "name": "Instagram", "icon": "instagram", "href": "https://www.instagram.com" },
+                { "name": "Linkedin", "icon": "linkedin", "href": "https://www.linkedin.com" },
+                { "name": "Youtube", "icon": "youtube", "href": "https://www.youtube.com" }
+              ],
+              "form_eyebrow": "SEND US A MESSAGE",
+              "form_title": "Get in Touch",
+              "form_text": "Fill out the form below and our team will get back to you shortly.",
+              "placeholders": { "name": "Your Name *", "email": "Your Email *", "phone": "Phone Number *", "service": "Select Service", "message": "Your Message (Optional)" },
+              "services": ["Web Development", "Mobile App Development", "Software Development", "UI/UX Design", "Digital Marketing", "IT Consulting", "Cloud Solutions", "Ongoing Support"],
+              "submit": "Send Message →",
+              "privacy": "Your information is safe with us. We never share your details with third parties.",
+              "office_image": "/img/about.png",
+              "office_title": "Visit Our Office",
+              "office_text": "We welcome you to visit our office and discuss your project. Our team is always ready to assist you.",
+              "address_label": "Address",
+              "address": "123 Education Lane, New York, NY 10001",
+              "hours_label": "Working Hours",
+              "hours": "Monday – Saturday: 9:00 AM – 6:00 PM\nSunday: Closed",
+              "phone": "+100000000000",
+              "phone_href": "tel:+100000000000",
+              "map": "https://maps.google.com/maps?q=123%20Education%20Lane%20New%20York%20NY%2010001&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            },
+            "quote": {
+              "eyebrow": "GET A QUOTE",
+              "title": "Quick Quote For Your",
+              "title_highlight": "IT Project",
+              "description": "Tell us a few details about your project and service requirements. We'll get back to you with the best quote.",
+              "points": [
+                { "icon": "clock", "title": "Fast Response", "text": "Get a quote within a short time." },
+                { "icon": "shield", "title": "No Hidden Charges", "text": "Transparent and fair pricing." },
+                { "icon": "users", "title": "Customized Service", "text": "Quotes tailored to your needs." }
+              ],
+              "image": "/img/about.png",
+              "quote": "Clear plans, reliable delivery, and software built for your business.",
+              "quote_note": "BUILD SMART\nGROW FAST",
+              "form_eyebrow": "REQUEST A QUOTE",
+              "form_title": "Fill The Details",
+              "form_text": "Our team will get back to you with the best quote.",
+              "placeholders": { "name": "Your Name *", "phone": "Phone Number *", "email": "Email Address *", "service": "Select Service *", "date": "Preferred Date", "time": "Preferred Time", "message": "Additional Message (Optional)" },
+              "services": ["Web Development", "Mobile App Development", "Software Development", "UI/UX Design", "Digital Marketing", "IT Consulting", "Cloud Solutions", "Ongoing Support"],
+              "submit": "Request Quote",
+              "privacy": "Your information is safe with us."
+            },
+            "thank_you": {
+              "image": "/img/thank.png",
+              "title": "Thank You!",
+              "subtitle": "Your Request Has Been Submitted Successfully.",
+              "description": "We appreciate you reaching out to us. Our team will review your details and get back to you shortly with a customized quote based on your requirements.",
+              "button": "Back to Home →",
+              "href": "/"
             },
             "service_cards": {
               "subtitle": "OUR SERVICES",
               "title": "Our",
               "title_highlight": "Services",
-              "button": { "text": "Discover More", "href": "/contact" },
+              "button": {
+                "text": "Discover More",
+                "href": "/contact"
+              },
               "items": [
-                { "icon": "code", "title": "Web Development", "description": "We build fast, secure and scalable websites that help your business grow online.", "image": "/projects/1.png", "href": "/services/web-development" },
-                { "icon": "smartphone", "title": "Mobile App Development", "description": "We create user-friendly mobile applications tailored to your business needs.", "image": "/projects/2.png", "href": "/services/mobile-app-development" },
-                { "icon": "pen", "title": "UI/UX Design", "description": "We design intuitive and engaging user experiences that keep your customers coming back.", "image": "/projects/3.png", "href": "/services/ui-ux-design" },
-                { "icon": "cloud", "title": "Cloud Solutions", "description": "We provide secure and reliable cloud solutions to scale your business with ease.", "image": "/projects/4.png", "href": "/services/cloud-solutions" },
-                { "icon": "chart", "title": "Digital Marketing", "description": "We help you reach the right audience and grow your brand with data-driven strategies.", "image": "/projects/5.png", "href": "/services/digital-marketing" },
-                { "icon": "users", "title": "IT Consulting", "description": "We offer expert guidance and IT consulting services to optimize your business operations.", "image": "/projects/6.png", "href": "/services/it-consulting" }
+                {
+                  "icon": "code",
+                  "title": "Web Development",
+                  "description": "We build fast, secure and scalable websites that help your business grow online.",
+                  "image": "/projects/1.png",
+                  "href": "/services/web-development"
+                },
+                {
+                  "icon": "smartphone",
+                  "title": "Mobile App Development",
+                  "description": "We create user-friendly mobile applications tailored to your business needs.",
+                  "image": "/projects/2.png",
+                  "href": "/services/mobile-app-development"
+                },
+                {
+                  "icon": "pen",
+                  "title": "UI/UX Design",
+                  "description": "We design clear, engaging experiences that keep customers coming back.",
+                  "image": "/projects/3.png",
+                  "href": "/services/ui-ux-design"
+                },
+                {
+                  "icon": "cloud",
+                  "title": "Cloud Solutions",
+                  "description": "Secure, reliable cloud solutions that scale as your business grows.",
+                  "image": "/projects/4.png",
+                  "href": "/services/cloud-solutions"
+                },
+                {
+                  "icon": "chart",
+                  "title": "Digital Marketing",
+                  "description": "Reach the right audience and grow your brand with clear campaigns.",
+                  "image": "/projects/5.png",
+                  "href": "/services/digital-marketing"
+                },
+                {
+                  "icon": "users",
+                  "title": "IT Consulting",
+                  "description": "Expert IT guidance to streamline operations and spend with confidence.",
+                  "image": "/projects/6.png",
+                  "href": "/services/it-consulting"
+                },
+                {
+                  "icon": "code",
+                  "title": "Custom Software",
+                  "description": "Tailored software that fits how your business actually works.",
+                  "image": "/projects/1.png",
+                  "href": "/services/custom-software-development"
+                },
+                {
+                  "icon": "smartphone",
+                  "title": "Web & App Development",
+                  "description": "Web and mobile products that stay fast, secure and easy to use.",
+                  "image": "/projects/2.png",
+                  "href": "/services/web-app-development"
+                },
+                {
+                  "icon": "chart",
+                  "title": "Data Management",
+                  "description": "Store, connect and report on data your team can trust.",
+                  "image": "/projects/4.png",
+                  "href": "/services/data-management"
+                },
+                {
+                  "icon": "gear",
+                  "title": "Process Automation",
+                  "description": "Automate repeat work so your team can focus on decisions.",
+                  "image": "/projects/5.png",
+                  "href": "/services/business-process-automation"
+                },
+                {
+                  "icon": "shield",
+                  "title": "Ongoing Support",
+                  "description": "Updates, fixes and care so your systems keep running.",
+                  "image": "/projects/6.png",
+                  "href": "/services/ongoing-support"
+                }
               ]
             },
             "service_details": [
@@ -160,20 +649,24 @@
                 "eyebrow": "CUSTOM SOFTWARE DEVELOPMENT",
                 "heading": "Tailored Software Solutions for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We build custom software solutions that streamline your operations, solve complex business challenges and help you achieve your goals faster and smarter. Our development process focuses on quality, scalability and user-friendly experiences to ensure long-term success for your business.",
+                "intro": "We build custom software solutions that streamline your operations, solve complex business challenges and help you achieve your goals faster and smarter. Our development process focuses on quality, scalability and user-friendly experiences so the product can support the business for years, not only for the first release. We start by learning how your team works today, where time is lost and which steps should stay in people's hands. From there we shape a system that fits those habits, connects the tools you already rely on and leaves room for the features you will need later. You review the plan before build starts, see progress while it is built and get a result your staff can use without a long retraining period.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "With years of experience, we have helped businesses across various industries build reliable and high-performing software solutions. Our team combines technical expertise with industry knowledge to deliver innovative solutions that create real business value. We understand your unique requirements and work closely with you to turn ideas into powerful digital products that drive efficiency, improve customer experience and support your growth journey.",
+                "partner_text": "With years of experience, we have helped businesses across various industries build reliable and high-performing software solutions. Our team combines technical expertise with industry knowledge to deliver products that create real business value, not only a new screen to learn. We understand your unique requirements and work closely with you to turn ideas into digital tools that drive efficiency, improve the customer experience and support growth. Decisions stay with you at every stage, from the first scope through design, build and release. After launch we remain available for fixes, small improvements and the next set of features, so the software keeps matching how the company actually operates.",
                 "options_title": "Service Options",
-                "options_intro": "We offer a range of custom software development services to meet diverse business needs, including:",
+                "options_intro": "We offer a range of custom software development services to meet diverse business needs. Each option can stand alone or sit inside a larger build, and we agree the scope, timeline and success checks with you before development starts. The work stays tied to a real process your team already runs, including the exceptions that happen every week. We can begin with one workflow, prove it in daily use and then extend the system as confidence grows. That keeps the first release useful without forcing every future idea into the opening project, including: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "options": [
                   "Web-based software solutions tailored to your requirements",
                   "Enterprise software development for large organizations",
                   "API integration and third-party system connectivity",
                   "Ongoing support, maintenance and feature enhancements"
                 ],
-                "gallery": ["/projects/2.png", "/projects/3.png", "/projects/4.png"],
+                "gallery": [
+                  "/projects/2.png",
+                  "/projects/3.png",
+                  "/projects/4.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We follow a structured and agile development process to ensure transparency, quality and timely delivery. From initial consultation to deployment and ongoing support, we work closely with you at every stage to build software that aligns with your business goals. Our process includes requirement analysis, planning, design, development, testing and deployment, ensuring a smooth and successful journey from concept to completion.",
+                "process_text": "We follow a structured and agile development process to keep the work transparent, high quality and on time. From the first consultation through deployment and later support, we stay close to you so the software matches your business goals instead of a generic template. The path includes requirement analysis, planning, design, development, testing and deployment, with a review at each step before we move on. You see what is finished, what is next and what still needs a decision. Testing happens against real tasks your team performs, and launch includes a check in your environment so the handover is calm and the journey from concept to completion stays clear.",
                 "process_image": "/projects/5.png"
               },
               {
@@ -183,15 +676,24 @@
                 "eyebrow": "WEB & APP DEVELOPMENT",
                 "heading": "Web and Mobile Products for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We design and build websites and apps that are fast, secure and easy to use, so your customers can reach you on every device.",
+                "intro": "We design and build websites and apps that are fast, secure and easy to use, so your customers can reach you on every device. Each product is planned around the jobs people need to finish, from the first visit through sign-in, checkout and later return visits. We keep performance, clarity and security in the same plan, so the result is not only attractive but also reliable as more people start using it. Structure, design and build happen in sequence, and you see each stage before the next one starts. After launch we stay for fixes and the features real use shows you still need, so the product keeps matching how customers actually behave.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "Our team plans, designs and ships web and mobile products that match your workflow. We stay with you from the first screen through launch and later updates.",
+                "partner_text": "Our team plans, designs and ships web and mobile products that match your workflow and the way your customers already behave. We stay with you from the first screen through launch and later updates, so decisions are not handed off to a new group halfway through. You see the structure, the design and the build in order, and we adjust the product when real use shows a better path. Content, forms and the main tasks are tested before release, on the devices your audience actually uses. After go-live we help with improvements, so the website or app continues to support sales and service instead of freezing on the day it launched.",
                 "options_title": "Service Options",
-                "options_intro": "Web and app services we deliver include:",
-                "options": ["Responsive business websites", "Cross-platform mobile apps", "Admin dashboards and portals", "Ongoing updates and support"],
-                "gallery": ["/projects/1.png", "/projects/3.png", "/blog/1.png"],
+                "options_intro": "Web and app services cover products for customers and for the teams who run them. We can start with one surface, such as a public site or a mobile app, and add the rest once the first release is in daily use. Scope, timeline and what \"done\" means are agreed before build starts, so the first version stays focused. Later work can add admin tools, extra screens or integrations without throwing away what already works. The list below is the kind of work we take on, and we confirm which pieces belong in the opening release, including: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Responsive business websites",
+                  "Cross-platform mobile apps",
+                  "Admin dashboards and portals",
+                  "Ongoing updates and support"
+                ],
+                "gallery": [
+                  "/projects/1.png",
+                  "/projects/3.png",
+                  "/blog/1.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We start with your goals, shape the user flow, then design, build and test before launch. You see progress at every step.",
+                "process_text": "We start with your goals and shape a clear user flow before any design begins. Then we design the screens, build the web and mobile product, and test it on real devices before launch. You see progress at every step, from the first wireframe through development, review and release. Testing covers the tasks people repeat, not only a quick look at the homepage. After launch we stay with you for fixes, improvements and the next set of features so the product keeps matching how your customers actually use it. Each later change follows the same path: agree it, build it, check it, then ship it into the live product.",
                 "process_image": "/projects/6.png"
               },
               {
@@ -201,15 +703,24 @@
                 "eyebrow": "WEB DEVELOPMENT",
                 "heading": "Fast Websites Built for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We build fast, secure and scalable websites that help your business grow online and stay easy to manage.",
+                "intro": "We build fast, secure and scalable websites that help your business grow online and stay easy to manage. Pages are structured so visitors find the next step quickly, and the content can be updated without a full rebuild. We pay attention to speed, forms, search and the small details that decide whether someone stays or leaves, so the site supports sales and support instead of only looking finished. You review the page map and the layout before development goes too far. After publish we help with content changes and checks, so the website keeps matching new offers, new pages and the way people arrive from search or a campaign.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "From landing pages to full platforms, we shape the structure, design and code around how your customers actually use the site.",
+                "partner_text": "From landing pages to full platforms, we shape the structure, design and code around how your customers actually use the site. We work with you on the pages that matter first, then connect the rest so the whole site feels like one product. Forms, navigation and the calls to action are checked on desktop and on a phone before launch. After the site is live we help with content, small features and routine checks, so it keeps matching the business as offers and audiences change. You are not left with a design nobody can edit, and updates do not require starting the project again.",
                 "options_title": "Service Options",
-                "options_intro": "Web development services include:",
-                "options": ["Business and marketing websites", "Custom web applications", "Performance and security setup", "Content updates and maintenance"],
-                "gallery": ["/projects/2.png", "/blog/2.png", "/projects/4.png"],
+                "options_intro": "Web development services cover the pages visitors see and the tools your team uses to update them. We scope the first release with you, then add the next pages when the core site is live and people are already using it. Speed, forms and the content model are part of that first plan, not a later surprise. We also agree who will edit the site after launch and how those edits should work. The services below can be combined or taken one at a time, depending on what the business needs first, including: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Business and marketing websites",
+                  "Custom web applications",
+                  "Performance and security setup",
+                  "Content updates and maintenance"
+                ],
+                "gallery": [
+                  "/projects/2.png",
+                  "/blog/2.png",
+                  "/projects/4.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We map pages, design the layout, build the site and test it across devices before it goes live.",
+                "process_text": "We map the pages your visitors need, then design a layout that is clear on desktop and mobile. After that we build the site, connect forms and content, and test it across browsers and screen sizes before it goes live. You review each stage, so the structure, look and speed match what you asked for. Testing includes the paths that bring an enquiry or a sale, not only the visual design. Once the site is published we help with small updates, content changes and checks so it stays reliable after launch. The same review habit continues, so later pages fit the site you already approved.",
                 "process_image": "/projects/3.png"
               },
               {
@@ -219,15 +730,24 @@
                 "eyebrow": "MOBILE APP DEVELOPMENT",
                 "heading": "Mobile Apps Tailored for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We create user-friendly mobile applications tailored to your business needs on both major app stores.",
+                "intro": "We create user-friendly mobile applications tailored to your business needs on both major app stores. The apps are built so people can finish common tasks with few taps, whether they are customers, staff or partners in the field. We plan for phones of different sizes, for slow connections and for the updates you will need after the first release, so the app stays useful instead of becoming a one-time download. You approve the feature list and the flow before development runs too far. Store release, fixes and the next features stay with the same team, so the app keeps pace with how people actually use it.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We plan the screens, build the app and keep the experience simple so people can finish tasks quickly.",
+                "partner_text": "We plan the screens, build the app and keep the experience simple so people can finish tasks quickly. You review the flow before development goes too far, and we test the important paths on real devices before anything is submitted to the stores. Accounts, data and the offline cases your users hit are part of that test, not an afterthought. After release we stay available for fixes, store updates and the next features, so the app keeps pace with how your users work. You always know what is in the current version and what is planned for the next one.",
                 "options_title": "Service Options",
-                "options_intro": "Mobile services include:",
-                "options": ["iOS and Android apps", "Cross-platform builds", "App store release support", "Updates and maintenance"],
-                "gallery": ["/projects/5.png", "/projects/6.png", "/blog/3.png"],
+                "options_intro": "Mobile services cover the app your users open and the release work around it. We agree the first set of features before build starts, then plan later updates so the store listing stays current and the team is not surprised by a large follow-up project. Design, development, store submission and care after launch can be scoped together or in stages. We also say which work belongs on iOS, Android or both before a line of the app is written. Typical pieces of that work include: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "iOS and Android apps",
+                  "Cross-platform builds",
+                  "App store release support",
+                  "Updates and maintenance"
+                ],
+                "gallery": [
+                  "/projects/5.png",
+                  "/projects/6.png",
+                  "/blog/3.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We define the features, design the flow, develop the app and test it before release.",
+                "process_text": "We define the features your users need, then design the screens and the flow they will follow. After you approve that plan we develop the app, connect the data it depends on, and test it on phones before release. You stay involved from the first outline through build reviews, so nothing important is left until the end. When the app is ready we prepare the store release and stay available for updates, fixes and the next round of improvements. Each later version follows the same checks, so a new feature does not break the tasks people already rely on every day.",
                 "process_image": "/projects/1.png"
               },
               {
@@ -237,15 +757,24 @@
                 "eyebrow": "CLOUD SOLUTIONS",
                 "heading": "Secure Cloud Systems for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We provide secure and reliable cloud solutions so your systems can scale without slowing the team down.",
+                "intro": "We provide secure and reliable cloud solutions so your systems can scale without slowing the team down. That includes where the software runs, how it is backed up and who can reach it. We look at cost and uptime together, so growth does not come with surprise bills or outages that interrupt daily work. The setup is documented so your team knows what is running and how to ask for a change. Moves happen in steps, with a rollback plan, and we stay after launch to watch performance, access and backups as usage grows. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We move, host and look after the parts of your software that need to stay available as the business grows.",
+                "partner_text": "We move, host and look after the parts of your software that need to stay available as the business grows. Before anything is moved we agree what must stay online, what can wait and how we will roll back if a step fails. After the move we monitor the environment and help with access, capacity and routine checks, so the cloud stays a working system rather than a one-time migration. You get a clear picture of cost and of who can reach each system. Changes after launch follow the same agreement, so the environment does not drift without anyone noticing.",
                 "options_title": "Service Options",
-                "options_intro": "Cloud services include:",
-                "options": ["Cloud setup and migration", "Secure hosting", "Backup and monitoring", "Ongoing cloud support"],
-                "gallery": ["/projects/3.png", "/projects/5.png", "/blog/4.png"],
+                "options_intro": "Cloud services cover where the software runs, who can reach it and how it is looked after once it is live. We start with the systems that must stay online, then extend the setup as usage grows and new tools are added. Cost, backups and access are discussed before the move, not after the first invoice arrives. We also document the setup so a later change does not depend on one person remembering the details. The work we usually include is listed below, and we confirm which items belong in the first phase, including: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Cloud setup and migration",
+                  "Secure hosting",
+                  "Backup and monitoring",
+                  "Ongoing cloud support"
+                ],
+                "gallery": [
+                  "/projects/3.png",
+                  "/projects/5.png",
+                  "/blog/4.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We review what you run today, plan the move, set up the cloud and keep it monitored after launch.",
+                "process_text": "We review what you run today, including servers, apps and how your team uses them. Then we plan the move, set up the cloud environment and shift workloads in a way that limits downtime. After launch we monitor performance, access and backups so issues show up early. You get a clear picture of cost, security and what changed, and we stay on hand to adjust capacity as your usage grows. Each step is confirmed before the next one starts, so the team always knows what is live and what is still waiting to move. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "process_image": "/projects/2.png"
               },
               {
@@ -255,15 +784,24 @@
                 "eyebrow": "IT CONSULTING",
                 "heading": "Clear IT Guidance for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We offer expert guidance and IT consulting so you can choose the right systems and spend with confidence.",
+                "intro": "We offer expert guidance and IT consulting so you can choose the right systems and spend with confidence. The advice is tied to how your team works today, not to a generic list of tools. We explain the tradeoffs in plain language, including cost, risk and the time it will take to change, so leaders can decide without sitting through a technical lecture. Some recommendations are quick fixes. Others need a longer project, and we say which is which before you commit budget or staff time. We stay available while the plan is put in place, so questions do not stall the work after the first meeting.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We look at your current tools, point out what is slowing work down and recommend a practical plan.",
+                "partner_text": "We look at your current tools, point out what is slowing work down and recommend a practical plan you can follow in stages. Some steps are quick fixes. Others need a longer project, and we say which is which before you commit. The plan names what to change, what to keep and the order to do it in, written so a non-technical leader can follow it. We stay available while the plan is put in place, answering questions and adjusting steps if the business shifts. The goal is guidance you can act on, not a report that sits unused after the workshop.",
                 "options_title": "Service Options",
-                "options_intro": "Consulting services include:",
-                "options": ["Technology planning", "System reviews", "Vendor and tool selection", "Implementation support"],
-                "gallery": ["/projects/1.png", "/projects/4.png", "/blog/5.png"],
+                "options_intro": "Consulting services start with a clear look at the tools and habits you already have. We separate quick fixes from longer projects before you commit time or budget, and we explain the tradeoff of each choice in plain language. The output is a plan your leaders can use, with an order of work and a note on what success should look like. We can stay involved while that plan is carried out, or hand it to your own team with enough detail to proceed. Typical areas we cover include: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Technology planning",
+                  "System reviews",
+                  "Vendor and tool selection",
+                  "Implementation support"
+                ],
+                "gallery": [
+                  "/projects/1.png",
+                  "/projects/4.png",
+                  "/blog/5.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We listen first, review the setup, share a clear plan and stay available while you put it in place.",
+                "process_text": "We listen first, then review the systems, tools and habits your team already uses. From that we share a clear plan that names what to change, what to keep and the order to do it in. While you put the plan in place we stay available to explain choices, answer questions and adjust the steps if something in the business shifts. The goal is practical guidance you can act on, not a report that sits unused after the first meeting. Each recommendation includes the effort involved, so you can choose the next step with the cost and the risk in view.",
                 "process_image": "/projects/5.png"
               },
               {
@@ -273,15 +811,24 @@
                 "eyebrow": "UI/UX DESIGN",
                 "heading": "Interfaces People Enjoy for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We design intuitive and engaging experiences that keep customers moving through your product.",
+                "intro": "We design intuitive and engaging experiences that keep customers moving through your product. Screens, labels and the order of steps are chosen so people do not have to guess what happens next. We also keep the look consistent, so a new feature feels like part of the same product instead of a separate tool dropped in later. You can review the flow early, before visual polish locks the layout in place. Sketches, sample screens and the final files are shared in order, and the handoff includes the states and notes a build team needs to match the design without guessing.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We study how people use your product, then design screens that feel clear and consistent.",
+                "partner_text": "We study how people use your product, then design screens that feel clear and consistent from the first page to the last. You see sketches before the final visuals, so the structure can change while it is still cheap to change. Colors, type and components are locked only after the flow is agreed. The files we hand over are ready for the build team, with the states and notes they need to match the design. We stay through the early build reviews, so the shipped screens still match what was approved and small gaps are caught before release. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "options_title": "Service Options",
-                "options_intro": "Design services include:",
-                "options": ["User research", "Wireframes and prototypes", "Visual interface design", "Design updates after launch"],
-                "gallery": ["/projects/2.png", "/blog/1.png", "/projects/6.png"],
+                "options_intro": "Design services run from the first sketch to a handoff the build team can follow. We keep you in the reviews so the structure can change while it is still easy to change, and we do not polish screens that still have the wrong order of steps. The work can cover a full product or a single flow that is causing drop-off. What we deliver is written down, including the files, the states and the notes the developers need. Typical pieces of that work include: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "User research",
+                  "Wireframes and prototypes",
+                  "Visual interface design",
+                  "Design updates after launch"
+                ],
+                "gallery": [
+                  "/projects/2.png",
+                  "/blog/1.png",
+                  "/projects/6.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We sketch the flow, test the idea, refine the visuals and hand off a design the build team can follow.",
+                "process_text": "We sketch the flow so the main tasks are obvious before any visual polish starts. Then we test the idea with sample screens, refine the layout and type, and lock the colors and components. The handoff includes the screens, states and notes a build team can follow without guessing. You review the work at each step, so the final design matches both how people use the product and how your brand should look. If a later build review shows a screen drifting from the plan, we correct it before that screen is treated as finished. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "process_image": "/projects/4.png"
               },
               {
@@ -291,15 +838,24 @@
                 "eyebrow": "DIGITAL MARKETING",
                 "heading": "Marketing That Supports",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We help you reach the right audience and grow your brand with clear, measurable campaigns.",
+                "intro": "We help you reach the right audience and grow your brand with clear, measurable campaigns. Each campaign starts with one outcome, whether that is enquiries, sign-ups or sales, and the message is written for the people who can actually take that step. We report what happened in language you can use in a meeting, not only in a dashboard full of extra numbers. Channels are chosen to fit that goal, and the plan is adjusted while the campaign is running, not only after the budget is gone. You see what is working, what is spending without return and what we will change next.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We plan the message, choose the channels and report what is working so you can keep investing in the right places.",
+                "partner_text": "We plan the message, choose the channels and report what is working so you can keep investing in the right places. Campaigns are adjusted while they run, not only after the budget is gone. You stay in the loop on what we changed and why, so marketing stays connected to the offer your team is actually selling. Each check names the next step instead of only showing a chart. Creative, audience and spend are reviewed together, so a weak result can be traced to a cause and the following week is planned from that, not from a guess. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "options_title": "Service Options",
-                "options_intro": "Marketing services include:",
-                "options": ["Campaign planning", "Search and social promotion", "Content support", "Performance reporting"],
-                "gallery": ["/projects/3.png", "/blog/2.png", "/projects/1.png"],
+                "options_intro": "Marketing services cover planning, launch and the checks that follow. We tie every piece of work to one outcome you can explain in a meeting, and we agree how that outcome will be counted before anything goes live. Reporting stays in plain language, with a note on what should change next. Campaigns can be a single channel or a mix, depending on where your audience already is. The kinds of work we take on include: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Campaign planning",
+                  "Search and social promotion",
+                  "Content support",
+                  "Performance reporting"
+                ],
+                "gallery": [
+                  "/projects/3.png",
+                  "/blog/2.png",
+                  "/projects/1.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We set the goal, launch the campaign, watch the results and adjust the plan with you.",
+                "process_text": "We set a clear goal, choose the channels that fit it and prepare the message before anything goes live. Then we launch the campaign, watch the results and adjust the plan with you as the numbers come in. You see what is working, what is spending without return and what we will change next. The process stays ongoing, with regular checks so the campaign keeps pointing at the audience and outcome you actually care about. Each review ends with a decision, so the next period of spend follows evidence from the last one. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "process_image": "/projects/6.png"
               },
               {
@@ -309,15 +865,24 @@
                 "eyebrow": "DATA MANAGEMENT",
                 "heading": "Organised Data for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We help you store, connect and use business data so teams can trust the numbers they see.",
+                "intro": "We help you store, connect and use business data so teams can trust the numbers they see. Scattered spreadsheets and duplicate records are brought into a structure people can query and report on. The aim is everyday use: a manager should be able to answer a normal question without waiting for someone to rebuild a file by hand. Definitions are written down so two teams do not use the same word for different totals. We check the first reports with the people who rely on them, then leave a setup your staff can extend when a new question appears. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We tidy scattered information, set up reliable reporting and keep the data easy to maintain.",
+                "partner_text": "We tidy scattered information, set up reliable reporting and keep the data easy to maintain after the first cleanup. Definitions are written down so two teams do not use the same word for different totals. We check the reports with the people who rely on them, then leave a setup your staff can extend without starting over. New reports can be added later from the same structure. Sources, fields and the checks we used are documented, so a later change does not depend on one person remembering how a number was built. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "options_title": "Service Options",
-                "options_intro": "Data services include:",
-                "options": ["Data cleanup", "Reporting dashboards", "System connections", "Ongoing data support"],
-                "gallery": ["/projects/5.png", "/projects/2.png", "/blog/3.png"],
+                "options_intro": "Data services cover cleanup, reporting and the rules that keep numbers consistent. We check the first reports with the people who use them before anyone treats the figures as final, and we write down what each important field means. The work can start with one report the business already argues about, then grow to a wider set once that number is trusted. Sources stay connected so the next question does not require another manual export. Typical pieces of the work include: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Data cleanup",
+                  "Reporting dashboards",
+                  "System connections",
+                  "Ongoing data support"
+                ],
+                "gallery": [
+                  "/projects/5.png",
+                  "/projects/2.png",
+                  "/blog/3.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We review your sources, structure the data, build the reports and check them with your team.",
+                "process_text": "We review your sources, see where numbers disagree and agree on the fields that matter. Then we structure the data, clean what is incomplete and build reports your team can read without extra explanation. Before anything is treated as final we check the figures with the people who use them every day. After that we keep the setup documented so new reports can be added without starting the whole process again. Each new report reuses the definitions already agreed, so the business does not collect a second set of conflicting totals. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "process_image": "/projects/1.png"
               },
               {
@@ -327,15 +892,24 @@
                 "eyebrow": "BUSINESS PROCESS AUTOMATION",
                 "heading": "Fewer Manual Steps for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We automate repeat work so your team spends time on decisions instead of copying information between tools.",
+                "intro": "We automate repeat work so your team spends time on decisions instead of copying information between tools. The automation follows the process you already have, including the exceptions that happen every week. People still see what moved and why, so the system saves time without hiding the work from the team that owns it. We test the path with real examples before anything is switched on for the whole team. After go-live we watch the first runs with you and adjust the rules that do not match day-to-day work, so the automation earns trust. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "We map the current process, remove the slow steps and connect the systems that should talk to each other.",
+                "partner_text": "We map the current process, remove the slow steps and connect the systems that should talk to each other. Before anything is switched on, your team tests the path with real examples, including the cases that usually break a happy-path demo. After go-live we watch the first runs with you and adjust the rules that do not match day-to-day work, so the automation earns trust instead of creating a new queue of fixes. Handoffs, delays and the steps people repeat by hand are written down first, so the build follows the real process. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "options_title": "Service Options",
-                "options_intro": "Automation services include:",
-                "options": ["Process mapping", "Workflow automation", "Tool integrations", "Support after rollout"],
-                "gallery": ["/projects/1.png", "/projects/3.png", "/blog/4.png"],
+                "options_intro": "Automation services follow the process you already run, including the exceptions. We document the slow steps first, then connect only the systems that should talk to each other, and we leave a record of what moved so the team can still see the work. Testing uses real examples from your staff before the switch is thrown for everyone. The pieces below can be combined into one flow or delivered as a smaller first automation, including: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Process mapping",
+                  "Workflow automation",
+                  "Tool integrations",
+                  "Support after rollout"
+                ],
+                "gallery": [
+                  "/projects/1.png",
+                  "/projects/3.png",
+                  "/blog/4.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We document the process, build the automation, test it with your team and then switch it on.",
+                "process_text": "We document the process as it works today, including the handoffs, delays and steps people repeat by hand. Then we build the automation around that real flow, not an ideal version that nobody follows. We test it with your team, fix the gaps they find and only then switch it on. After go-live we watch the first runs with you so exceptions are handled and the team trusts the new way of working. Later changes follow the same path, so a new rule is tested before it reaches the whole queue. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "process_image": "/projects/2.png"
               },
               {
@@ -345,15 +919,24 @@
                 "eyebrow": "ONGOING SUPPORT",
                 "heading": "Steady Support for",
                 "heading_highlight": "Your Business Growth",
-                "intro": "We stay available after launch with updates, fixes and small improvements so your systems keep running.",
+                "intro": "We stay available after launch with updates, fixes and small improvements so your systems keep running. Requests are confirmed before work starts, then checked in your environment after they ship. You are not left to discover a failed change on your own, and routine care does not turn into a new project every time something small needs attention. The same path covers fixes, small features and regular checks. Notes on how the system is set up stay with the team, so a fix does not depend on one person remembering the details from the original build. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "partner_title": "A Partner in Your Digital Transformation",
-                "partner_text": "You get a team that already knows the product and can respond when something needs attention.",
+                "partner_text": "You get a team that already knows the product and can respond when something needs attention. We keep notes on how the system is set up, so a fix does not depend on one person remembering the details. Updates, maintenance and small features follow the same path: agree the change, ship it, and confirm it works where your users actually are. You hear what was done and what still needs a follow-up. Support stays predictable, with a clear request and a clear result, instead of turning every small change into a new project. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "options_title": "Service Options",
-                "options_intro": "Support services include:",
-                "options": ["Issue fixes", "Regular updates", "Performance checks", "Small feature improvements"],
-                "gallery": ["/projects/4.png", "/projects/6.png", "/blog/5.png"],
+                "options_intro": "Support services cover the changes that come after launch. Each request is confirmed, shipped and checked where your users actually are, and we tell you how we will know the update worked before the work starts. Fixes, small features and routine checks share that path so nothing is left on a checklist without a result. We also keep notes on the setup, so the next request is faster than the first. The kinds of care we provide include: We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
+                "options": [
+                  "Issue fixes",
+                  "Regular updates",
+                  "Performance checks",
+                  "Small feature improvements"
+                ],
+                "gallery": [
+                  "/projects/4.png",
+                  "/projects/6.png",
+                  "/blog/5.png"
+                ],
                 "process_title": "Our Development Process",
-                "process_text": "We take the request, confirm the change, ship the update and confirm it works in your environment.",
+                "process_text": "We take the request, confirm what should change and agree how we will know the update worked. Then we make the change, test it and ship it into your environment instead of leaving it on a checklist. After release we confirm the result with you and note anything that still needs a follow-up. The same path covers fixes, small features and routine checks, so support stays predictable instead of turning into a new project every time. You can see what shipped, when it shipped and whether it did what we agreed. We agree the scope with you first, review the work as it moves, and confirm the result in your environment before we call that part finished.",
                 "process_image": "/projects/3.png"
               }
             ],
@@ -364,9 +947,21 @@
               "title_line2": "for your business",
               "image": "/img/whychooseus.png",
               "items": [
-                { "icon": "users", "title": "Experienced Professionals", "description": "Our skilled developers, designers and strategists bring years of experience to deliver high-quality software solutions that drive real business results." },
-                { "icon": "bulb", "title": "Tailored Solutions", "description": "We understand that every business is unique, which is why we create customized software solutions to match your specific goals and requirements." },
-                { "icon": "support", "title": "Reliable Support", "description": "We are committed to building long-term relationships with our clients by providing ongoing support, regular updates and maintenance to keep your systems running smoothly." }
+                {
+                  "icon": "users",
+                  "title": "Experienced Professionals",
+                  "description": "Our skilled developers, designers and strategists bring years of experience to deliver high-quality software solutions that drive real business results."
+                },
+                {
+                  "icon": "bulb",
+                  "title": "Tailored Solutions",
+                  "description": "We understand that every business is unique, which is why we create customized software solutions to match your specific goals and requirements."
+                },
+                {
+                  "icon": "support",
+                  "title": "Reliable Support",
+                  "description": "We are committed to building long-term relationships with our clients by providing ongoing support, regular updates and maintenance to keep your systems running smoothly."
+                }
               ]
             },
             "hero": {
@@ -377,7 +972,10 @@
                   "title_line2": "Solutions For",
                   "title_highlight": "A Smarter Tomorrow",
                   "description": "We build custom software solutions that help businesses innovate, grow and stay ahead in the digital world.",
-                  "primary_button": { "text": "Get Started", "href": "/contact" },
+                  "primary_button": {
+                    "text": "Get Started",
+                    "href": "/contact"
+                  },
                   "image": "/banner/1.png"
                 },
                 {
@@ -386,7 +984,10 @@
                   "title_line2": "For Modern",
                   "title_highlight": "Growing Teams",
                   "description": "From web platforms to mobile apps, we design products that stay fast, secure, and easy to scale.",
-                  "primary_button": { "text": "Get Started", "href": "/contact" },
+                  "primary_button": {
+                    "text": "Get Started",
+                    "href": "/contact"
+                  },
                   "image": "/banner/2.png"
                 },
                 {
@@ -395,7 +996,10 @@
                   "title_line2": "To Keep Your",
                   "title_highlight": "Business Moving",
                   "description": "Reliable cloud, support, and consulting so your software keeps working as your company grows.",
-                  "primary_button": { "text": "Get Started", "href": "/contact" },
+                  "primary_button": {
+                    "text": "Get Started",
+                    "href": "/contact"
+                  },
                   "image": "/banner/3.png"
                 }
               ]
@@ -407,11 +1011,26 @@
               "description": "At TechView, we specialize in delivering custom software solutions that empower businesses to grow, innovate and stay ahead in the digital world.",
               "image": "/img/about.png",
               "features": [
-                { "icon": "users", "title": "Expert Team", "description": "Our experienced developers, designers and strategists work together to deliver high-quality solutions tailored to your business goals." },
-                { "icon": "bulb", "title": "Client-Focused Approach", "description": "We listen, understand and create solutions that align with your unique needs, ensuring long-term success." },
-                { "icon": "chart", "title": "Reliable & Scalable Solutions", "description": "From startups to enterprises, we build secure, scalable and future-ready software that grows with your business." }
+                {
+                  "icon": "users",
+                  "title": "Expert Team",
+                  "description": "Our experienced developers, designers and strategists work together to deliver high-quality solutions tailored to your business goals."
+                },
+                {
+                  "icon": "bulb",
+                  "title": "Client-Focused Approach",
+                  "description": "We listen, understand and create solutions that align with your unique needs, ensuring long-term success."
+                },
+                {
+                  "icon": "chart",
+                  "title": "Reliable & Scalable Solutions",
+                  "description": "From startups to enterprises, we build secure, scalable and future-ready software that grows with your business."
+                }
               ],
-              "button": { "text": "Learn More", "href": "/about" }
+              "button": {
+                "text": "Learn More",
+                "href": "/about"
+              }
             },
             "services": {
               "subtitle": "OUR SERVICES",
@@ -419,12 +1038,42 @@
               "title_highlight": "Your Business",
               "description": "We provide end-to-end software solutions to help businesses innovate, grow and stay ahead in the digital world.",
               "items": [
-                { "icon": "code", "color": "#3b6bff", "title": "Custom Software Development", "description": "We build tailored software solutions to meet your unique business needs and goals." },
-                { "icon": "smartphone", "color": "#ff4b3a", "title": "Mobile App Development", "description": "Create high-performance mobile applications for iOS and Android platforms." },
-                { "icon": "cloud", "color": "#12c4a8", "title": "Cloud Solutions", "description": "Scalable and secure cloud solutions to improve efficiency and support your business growth." },
-                { "icon": "gear", "color": "#a855f7", "title": "IT Consulting", "description": "Expert guidance and strategic IT solutions to streamline your business operations." },
-                { "icon": "chart", "color": "#f5b423", "title": "Web Development", "description": "Modern, responsive and high-performing websites that enhance your brand presence." },
-                { "icon": "shield", "color": "#3b82f6", "title": "Ongoing Support & Maintenance", "description": "Reliable support and maintenance to keep your systems secure and running smoothly." }
+                {
+                  "icon": "code",
+                  "color": "#3b6bff",
+                  "title": "Custom Software Development",
+                  "description": "We build tailored software solutions to meet your unique business needs and goals."
+                },
+                {
+                  "icon": "smartphone",
+                  "color": "#ff4b3a",
+                  "title": "Mobile App Development",
+                  "description": "Create high-performance mobile applications for iOS and Android platforms."
+                },
+                {
+                  "icon": "cloud",
+                  "color": "#12c4a8",
+                  "title": "Cloud Solutions",
+                  "description": "Scalable and secure cloud solutions to improve efficiency and support your business growth."
+                },
+                {
+                  "icon": "gear",
+                  "color": "#a855f7",
+                  "title": "IT Consulting",
+                  "description": "Expert guidance and strategic IT solutions to streamline your business operations."
+                },
+                {
+                  "icon": "chart",
+                  "color": "#f5b423",
+                  "title": "Web Development",
+                  "description": "Modern, responsive and high-performing websites that enhance your brand presence."
+                },
+                {
+                  "icon": "shield",
+                  "color": "#3b82f6",
+                  "title": "Ongoing Support & Maintenance",
+                  "description": "Reliable support and maintenance to keep your systems secure and running smoothly."
+                }
               ]
             },
             "projects": {
@@ -432,14 +1081,323 @@
               "title_line1": "Our Latest",
               "title_highlight": "Projects",
               "items": [
-                { "title": "Business Management System", "category": "Web Application", "image": "/projects/1.png", "href": "/projects" },
-                { "title": "E-Commerce Platform", "category": "Web Development", "image": "/projects/2.png", "href": "/projects" },
-                { "title": "Digital Marketing Dashboard", "category": "Web Application", "image": "/projects/3.png", "href": "/projects" },
-                { "title": "Mobile App Development", "category": "App Development", "image": "/projects/4.png", "href": "/projects" },
-                { "title": "Cloud Solution", "category": "Cloud Computing", "image": "/projects/5.png", "href": "/projects" },
-                { "title": "UI/UX Design", "category": "Creative Design", "image": "/projects/6.png", "href": "/projects" }
+                {
+                  "title": "Business Management System",
+                  "category": "Web Application",
+                  "image": "/projects/1.png",
+                  "href": "/projects/business-management-system"
+                },
+                {
+                  "title": "E-Commerce Platform",
+                  "category": "Web Development",
+                  "image": "/projects/2.png",
+                  "href": "/projects/e-commerce-platform"
+                },
+                {
+                  "title": "Digital Marketing Dashboard",
+                  "category": "Web Application",
+                  "image": "/projects/3.png",
+                  "href": "/projects/digital-marketing-dashboard"
+                },
+                {
+                  "title": "Mobile App Development",
+                  "category": "App Development",
+                  "image": "/projects/4.png",
+                  "href": "/projects/mobile-app-development"
+                },
+                {
+                  "title": "Cloud Solution",
+                  "category": "Cloud Computing",
+                  "image": "/projects/5.png",
+                  "href": "/projects/cloud-solution"
+                },
+                {
+                  "title": "UI/UX Design",
+                  "category": "Creative Design",
+                  "image": "/projects/6.png",
+                  "href": "/projects/ui-ux-design"
+                }
               ]
             },
+            "projects_page": {
+              "subtitle": "FEATURED PROJECTS",
+              "title_line1": "Our Latest",
+              "title_highlight": "Projects",
+              "items": [
+                {
+                  "title": "Business Management System",
+                  "category": "Web Application",
+                  "image": "/projects/1.png",
+                  "href": "/projects/business-management-system"
+                },
+                {
+                  "title": "E-Commerce Platform",
+                  "category": "Web Development",
+                  "image": "/projects/2.png",
+                  "href": "/projects/e-commerce-platform"
+                },
+                {
+                  "title": "Digital Marketing Dashboard",
+                  "category": "Web Application",
+                  "image": "/projects/3.png",
+                  "href": "/projects/digital-marketing-dashboard"
+                },
+                {
+                  "title": "Mobile App Development",
+                  "category": "App Development",
+                  "image": "/projects/4.png",
+                  "href": "/projects/mobile-app-development"
+                },
+                {
+                  "title": "Cloud Solution",
+                  "category": "Cloud Computing",
+                  "image": "/projects/5.png",
+                  "href": "/projects/cloud-solution"
+                },
+                {
+                  "title": "UI/UX Design",
+                  "category": "Creative Design",
+                  "image": "/projects/6.png",
+                  "href": "/projects/ui-ux-design"
+                },
+                {
+                  "title": "Cyber Security Solution",
+                  "category": "IT Security",
+                  "image": "/projects/1.png",
+                  "href": "/projects/cyber-security-solution"
+                },
+                {
+                  "title": "Data Analytics Platform",
+                  "category": "Data Analytics",
+                  "image": "/projects/2.png",
+                  "href": "/projects/data-analytics-platform"
+                },
+                {
+                  "title": "Website Redesign",
+                  "category": "Web Development",
+                  "image": "/projects/3.png",
+                  "href": "/projects/website-redesign"
+                }
+              ]
+            },
+            "project_details": [
+              {
+                "slug": "business-management-system",
+                "title": "Custom Software Development",
+                "category": "Web Application",
+                "image": "/projects/1.png",
+                "eyebrow": "CUSTOM SOFTWARE DEVELOPMENT",
+                "heading": "Tailored Software Solutions for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We build custom software solutions that streamline your operations, solve complex business challenges and help you achieve your goals faster and smarter. Our development process focuses on quality, scalability and user-friendly experiences to ensure long-term success for your business.",
+                "partner_text": "With years of experience, we have helped businesses across various industries build reliable and high-performing software solutions. Our team combines technical expertise with industry knowledge to deliver innovative solutions that create real business value. We understand your unique requirements and work closely with you to turn ideas into powerful digital products that drive efficiency, improve customer experience and support your growth journey.",
+                "options_intro": "We offer a range of custom software development services to meet diverse business needs, including:",
+                "options": [
+                  "Web-based software solutions tailored to your requirements",
+                  "Enterprise software development for large organizations",
+                  "API integration and third-party system connectivity",
+                  "Ongoing support, maintenance and feature enhancements"
+                ],
+                "gallery": [
+                  "/projects/2.png",
+                  "/projects/3.png"
+                ],
+                "process_text": "We follow a structured and agile development process to ensure transparency, quality and timely delivery. From initial consultation to deployment and ongoing support, we work closely with you at every stage to build software that aligns with your business goals. Our process includes requirement analysis, planning, design, development, testing and deployment, ensuring a smooth and successful journey from concept to completion.",
+                "process_image": "/projects/5.png"
+              },
+              {
+                "slug": "e-commerce-platform",
+                "title": "E-Commerce Platform",
+                "category": "Web Development",
+                "image": "/projects/2.png",
+                "eyebrow": "E-COMMERCE PLATFORM",
+                "heading": "Online Stores Built for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We design and build e-commerce platforms that make products easy to browse, buy and manage. The store is planned around real shopping paths, from the first product view through checkout, so customers can finish an order without friction. Catalog, payments and order tools sit in one plan, and your team can update products without a rebuild. We test real orders before launch so the first customer is not the first test.",
+                "partner_text": "Our team shapes the catalog, checkout and admin tools around how your team already sells. You review the flow before the build goes too far, and we stay through launch so payments, orders and updates work in your environment. After go-live we help with fixes and the next features as the catalog and the offers change.",
+                "options_intro": "E-commerce work covers the storefront your customers see and the tools your team uses to run orders. We agree the first release with you, including:",
+                "options": [
+                  "Product catalogs and search",
+                  "Secure checkout and payments",
+                  "Order and inventory tools",
+                  "Ongoing store updates"
+                ],
+                "gallery": [
+                  "/projects/1.png",
+                  "/projects/3.png"
+                ],
+                "process_text": "We map the shopping flow first, so product pages, cart and checkout follow the way your customers actually buy. Then we design the storefront, build the catalog and connect payments, shipping and order tools. You review each stage before we move on, and we test real orders before launch so nothing important is left to the first customer. After go-live we stay for fixes, small changes and the next set of features as the store grows.",
+                "process_image": "/projects/6.png"
+              },
+              {
+                "slug": "digital-marketing-dashboard",
+                "title": "Digital Marketing Dashboard",
+                "category": "Web Application",
+                "image": "/projects/3.png",
+                "eyebrow": "MARKETING DASHBOARD",
+                "heading": "Campaign Results You Can",
+                "heading_highlight": "Read Clearly",
+                "intro": "We build dashboards that bring campaign numbers into one place, so teams can see what is working without rebuilding spreadsheets. Reports stay tied to the goals you set, not to a pile of extra charts. We start with the questions a meeting actually needs answered, then connect the data and check the figures with the people who use them before anyone treats the view as final.",
+                "partner_text": "We sit with the people who read the numbers, agree the metrics that matter, and design screens they can use in a meeting. After launch we adjust the views when a campaign or channel changes. You stay in the loop on what moved and why, so the dashboard keeps matching the work instead of becoming another report nobody opens.",
+                "options_intro": "Dashboard work starts with the questions your team already asks. We connect the data and check the first figures with you, including:",
+                "options": [
+                  "Campaign performance views",
+                  "Channel comparisons",
+                  "Lead and sales reporting",
+                  "Scheduled updates"
+                ],
+                "gallery": [
+                  "/projects/4.png",
+                  "/projects/5.png"
+                ],
+                "process_text": "We start by listing the questions the dashboard must answer in a normal meeting, not every metric a tool can show. Then we connect the data, clean the fields that disagree and design screens your team can read without extra explanation. You check the figures with us before anyone treats them as final. After launch we adjust the views when a campaign, channel or goal changes, so the dashboard stays useful instead of becoming another report nobody opens.",
+                "process_image": "/projects/2.png"
+              },
+              {
+                "slug": "mobile-app-development",
+                "title": "Mobile App Development",
+                "category": "App Development",
+                "image": "/projects/4.png",
+                "eyebrow": "MOBILE APP DEVELOPMENT",
+                "heading": "Mobile Apps Tailored for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We create user-friendly mobile applications tailored to your business needs on both major app stores. The apps are built so people can finish common tasks with few taps, on different phones and connections. We plan the first release around the jobs users repeat, then leave room for the updates that come after the store listing is live.",
+                "partner_text": "We plan the screens, build the app and keep the experience simple so people can finish tasks quickly. You review the flow before development goes too far, and we test the important paths on real devices before release. After the store release we stay available for fixes and the next features, so the app keeps pace with how people actually use it.",
+                "options_intro": "App work covers the screens people use and the release around them. We agree the first features before build starts, including:",
+                "options": [
+                  "iOS and Android apps",
+                  "Cross-platform builds",
+                  "App store release support",
+                  "Updates and maintenance"
+                ],
+                "gallery": [
+                  "/projects/2.png",
+                  "/projects/6.png"
+                ],
+                "process_text": "We define the features your users need, then design the screens and the path they follow before development goes too far. After you approve that plan we build the app, connect the data it depends on and test the important tasks on real phones. You stay involved from the first outline through build reviews, so nothing important is left until the end. When the app is ready we prepare the store release and stay available for updates, fixes and the next round of improvements.",
+                "process_image": "/projects/1.png"
+              },
+              {
+                "slug": "cloud-solution",
+                "title": "Cloud Solution",
+                "category": "Cloud Computing",
+                "image": "/projects/5.png",
+                "eyebrow": "CLOUD SOLUTION",
+                "heading": "Cloud Systems Ready for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We set up secure and reliable cloud environments so your systems can scale without slowing the team down. Cost, access and backups are part of the same plan, not an afterthought. We look at what you run today, move it in steps that limit downtime, and leave the setup documented so your team knows what is running and how to ask for a change.",
+                "partner_text": "Before anything moves we agree what must stay online and how we roll back if a step fails. After launch we monitor the environment and help with capacity as usage grows. You get a clear picture of cost and access, and we stay on hand instead of leaving after the first switch.",
+                "options_intro": "Cloud work covers the move, who can reach the systems and how they are looked after. We start with what must stay online, including:",
+                "options": [
+                  "Cloud setup and migration",
+                  "Access and backups",
+                  "Monitoring after launch",
+                  "Capacity adjustments"
+                ],
+                "gallery": [
+                  "/projects/4.png",
+                  "/projects/1.png"
+                ],
+                "process_text": "We review what you run today, including servers, apps and how your team uses them day to day. Then we plan the move, agree what must stay online and set up the cloud in steps that limit downtime. After launch we monitor performance, access and backups so issues show up early. You get a clear picture of cost, security and what changed, and we stay on hand to adjust capacity as usage grows instead of leaving the setup after the first switch.",
+                "process_image": "/projects/3.png"
+              },
+              {
+                "slug": "ui-ux-design",
+                "title": "UI/UX Design",
+                "category": "Creative Design",
+                "image": "/projects/6.png",
+                "eyebrow": "UI/UX DESIGN",
+                "heading": "Clear Product Design for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We design intuitive and engaging experiences that keep customers moving through your product. Screens, labels and the order of steps are chosen so people do not have to guess what happens next. The look stays consistent, so a new feature feels like part of the same product. You can review the flow early, before visual polish locks the layout in place.",
+                "partner_text": "We study how people use the product, then design screens that feel clear and consistent. You see sketches before the final visuals, and the handoff includes the states a build team can follow. Reviews happen at each step, so the structure can still change while it is cheap to change.",
+                "options_intro": "Design work runs from the first sketch to a handoff the build team can follow. You stay in the reviews, including:",
+                "options": [
+                  "User flows and wireframes",
+                  "Visual design systems",
+                  "Prototype reviews",
+                  "Build-ready handoff"
+                ],
+                "gallery": [
+                  "/projects/3.png",
+                  "/projects/2.png"
+                ],
+                "process_text": "We sketch the flow so the main tasks are obvious before any visual polish starts. Then we test the idea with sample screens, refine the layout and type, and lock the colors and components your product will reuse. The handoff includes the screens, states and notes a build team can follow without guessing. You review the work at each step, so the final design matches both how people use the product and how your brand should look when it ships.",
+                "process_image": "/projects/5.png"
+              },
+              {
+                "slug": "cyber-security-solution",
+                "title": "Cyber Security Solution",
+                "category": "IT Security",
+                "image": "/projects/1.png",
+                "eyebrow": "CYBER SECURITY",
+                "heading": "Safer Systems for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We help you tighten access, backups and everyday security so the systems your team relies on stay available. The work is practical: what to lock down first, and how to know if something changes. We look at who can reach the tools, how backups run and which checks are missing, then put the fixes in an order that does not stop daily work. You get a clear picture of the risk that matters now and what can wait.",
+                "partner_text": "We review the current setup, name the gaps in plain language and put the important fixes in order. Your team stays involved so the new checks fit how people already work. We explain each change before it goes live, test it in your environment and leave notes your staff can use later. If a later review shows something still open, we stay available to close it instead of treating the first pass as finished.",
+                "options_intro": "Security work covers access, backups and the checks that follow a change. We agree what to do first, then apply and confirm it in your environment, including:",
+                "options": [
+                  "Access reviews",
+                  "Backup and recovery checks",
+                  "Security hardening",
+                  "Follow-up monitoring"
+                ],
+                "gallery": [
+                  "/projects/6.png",
+                  "/projects/4.png"
+                ],
+                "process_text": "We review the current setup first, including who can reach the systems, how backups run and which tools the team uses every day. Then we agree the risks that matter and put the fixes in an order your staff can follow without stopping the business. We apply those changes, test them in your environment and confirm they work before we call the work done. After that we leave notes your team can use, and we stay available if a later check shows something still needs attention.",
+                "process_image": "/projects/2.png"
+              },
+              {
+                "slug": "data-analytics-platform",
+                "title": "Data Analytics Platform",
+                "category": "Data Analytics",
+                "image": "/projects/2.png",
+                "eyebrow": "DATA ANALYTICS",
+                "heading": "Reports Your Team Can",
+                "heading_highlight": "Trust",
+                "intro": "We connect scattered business data so teams can trust the numbers they see. The aim is everyday use: a manager should be able to answer a normal question without rebuilding a file by hand. We find where the same total is counted two ways, agree the fields that matter and leave definitions written down so two teams do not use one word for different numbers.",
+                "partner_text": "We tidy the sources, agree definitions and build reports the people who use them can check. After that the setup stays documented so new reports can be added without starting over. We check the first figures with your team before anyone treats them as final.",
+                "options_intro": "Analytics work covers cleanup, shared definitions and the reports people open every week. We check the first figures with you, including:",
+                "options": [
+                  "Data cleanup",
+                  "Connected reporting",
+                  "Shared definitions",
+                  "New report setup"
+                ],
+                "gallery": [
+                  "/projects/5.png",
+                  "/projects/3.png"
+                ],
+                "process_text": "We review your sources and see where the same number is counted in two different ways. Then we structure the data, clean what is incomplete and agree the definitions two teams should share. We build the reports your people can read without extra explanation and check the figures with them before anyone treats the results as final. The setup stays documented, so a new report can be added later without starting the whole process again.",
+                "process_image": "/projects/4.png"
+              },
+              {
+                "slug": "website-redesign",
+                "title": "Website Redesign",
+                "category": "Web Development",
+                "image": "/projects/3.png",
+                "eyebrow": "WEBSITE REDESIGN",
+                "heading": "A Clearer Website for",
+                "heading_highlight": "Your Business Growth",
+                "intro": "We redesign websites so visitors find the next step quickly and your team can update content without a full rebuild. Speed, forms and the pages that drive enquiries are part of the same plan. We map the pages first, then design a layout that stays clear on desktop and on a phone, and test it before the site goes live.",
+                "partner_text": "From the first layout to launch, we shape structure and design around how customers actually use the site. You review each stage, so the look and the speed match what you asked for. After publish we help with content and small updates as offers change.",
+                "options_intro": "Redesign work covers the pages visitors see and the updates your team will make after launch. We review each stage with you, including:",
+                "options": [
+                  "Page structure and layout",
+                  "Responsive build",
+                  "Forms and content updates",
+                  "Launch checks"
+                ],
+                "gallery": [
+                  "/projects/1.png",
+                  "/projects/6.png"
+                ],
+                "process_text": "We map the pages visitors need, then design a layout that stays clear on desktop and on a phone. After that we build the site, connect forms and content, and test it across browsers and screen sizes before it goes live. You review each stage, so the structure, look and speed match what you asked for. Once the site is published we help with small updates, content changes and checks so it stays reliable after launch.",
+                "process_image": "/projects/2.png"
+              }
+            ],
             "testimonials": {
               "subtitle": "TESTIMONIALS",
               "title_line1": "What Our Clients Are",
@@ -473,20 +1431,388 @@
               "title_line1": "Insights, Tips &",
               "title_highlight": "Updates",
               "description": "Stay updated with the latest industry trends, expert tips, and useful insights to help your business grow faster and smarter.",
-              "button": { "text": "View All Blog", "href": "/blog" },
+              "button": {
+                "text": "View All Blog",
+                "href": "/blog"
+              },
               "image": "/img/bloggirl.png",
               "badge": "LATEST BLOG",
               "heading": "Our Latest",
               "heading_highlight": "Blog",
               "items": [
-                { "day": "28", "month": "Sep", "title": "Top Digital Marketing Strategies for Business Growth", "excerpt": "Discover the most effective digital marketing strategies to grow your business in 2026.", "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
-                { "day": "25", "month": "Sep", "title": "How SEO Can Boost Your Website Traffic", "excerpt": "Learn how a strong SEO strategy can increase visibility and bring more organic traffic to your website.", "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
-                { "day": "22", "month": "Sep", "title": "The Power of Social Media for Brand Awareness", "excerpt": "Explore how social media can help you build a strong brand presence and connect with your audience.", "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
-                { "day": "18", "month": "Sep", "title": "Why a Good Website Design Matters", "excerpt": "Find out how a well-designed website improves user experience and boosts conversions.", "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
-                { "day": "15", "month": "Sep", "title": "PPC Advertising Tips for Better ROI", "excerpt": "Get expert tips on running successful PPC campaigns and maximizing your return on investment.", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80", "href": "/blog" },
-                { "day": "12", "month": "Sep", "title": "Content Marketing Ideas to Engage Your Audience", "excerpt": "Explore creative content ideas that attract, engage, and convert your target audience.", "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80", "href": "/blog" }
+                {
+                  "day": "28",
+                  "month": "Sep",
+                  "title": "Top Digital Marketing Strategies for Business Growth",
+                  "excerpt": "Discover the most effective digital marketing strategies to grow your business in 2026.",
+                  "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/top-digital-marketing-strategies"
+                },
+                {
+                  "day": "25",
+                  "month": "Sep",
+                  "title": "How SEO Can Boost Your Website Traffic",
+                  "excerpt": "Learn how a strong SEO strategy can increase visibility and bring more organic traffic to your website.",
+                  "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/how-seo-can-boost-your-website-traffic"
+                },
+                {
+                  "day": "22",
+                  "month": "Sep",
+                  "title": "The Power of Social Media for Brand Awareness",
+                  "excerpt": "Explore how social media can help you build a strong brand presence and connect with your audience.",
+                  "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/power-of-social-media"
+                },
+                {
+                  "day": "18",
+                  "month": "Sep",
+                  "title": "Why a Good Website Design Matters",
+                  "excerpt": "Find out how a well-designed website improves user experience and boosts conversions.",
+                  "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/why-good-website-design-matters"
+                },
+                {
+                  "day": "15",
+                  "month": "Sep",
+                  "title": "PPC Advertising Tips for Better ROI",
+                  "excerpt": "Get expert tips on running successful PPC campaigns and maximizing your return on investment.",
+                  "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/ppc-advertising-tips"
+                },
+                {
+                  "day": "12",
+                  "month": "Sep",
+                  "title": "Content Marketing Ideas to Engage Your Audience",
+                  "excerpt": "Explore creative content ideas that attract, engage, and convert your target audience.",
+                  "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/content-marketing-ideas"
+                },
+                {
+                  "day": "08",
+                  "month": "Sep",
+                  "title": "Cloud Tools That Help Small Teams Scale",
+                  "excerpt": "See which cloud tools keep a growing team fast without adding extra complexity.",
+                  "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/cloud-tools-for-small-teams"
+                },
+                {
+                  "day": "04",
+                  "month": "Sep",
+                  "title": "How to Choose the Right Software Partner",
+                  "excerpt": "A simple way to compare software partners before you start a new build.",
+                  "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/choose-the-right-software-partner"
+                },
+                {
+                  "day": "01",
+                  "month": "Sep",
+                  "title": "Security Habits Every Business Should Keep",
+                  "excerpt": "Everyday security habits that protect customer data and keep systems available.",
+                  "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+                  "href": "/blog/security-habits-every-business"
+                }
               ]
-            }
+            },
+            "blog_details": [
+              {
+                "slug": "top-digital-marketing-strategies",
+                "title": "Top Digital Marketing Strategies for Business Growth",
+                "eyebrow": "DIGITAL MARKETING",
+                "date": "28 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+                "category": "Digital Marketing",
+                "day": "28",
+                "month": "Sep",
+                "excerpt": "Discover the most effective digital marketing strategies to grow your business in 2026.",
+                "intro": "In today's competitive digital landscape, having the right marketing strategy is essential for business growth. Digital marketing helps you reach the right audience, build brand awareness and generate quality leads. In this blog, we will explore the most effective digital marketing strategies that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step in any successful digital marketing strategy is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of digital marketing. Whether it's blog posts, videos, or social media content, high-quality and informative content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Leverage SEO",
+                    "text": "Search Engine Optimization (SEO) helps your website rank higher on search engines, making it easier for potential customers to find you. Focus on keyword research, on-page optimization, and quality backlinks to improve your visibility."
+                  },
+                  {
+                    "title": "Use Social Media Effectively",
+                    "text": "Social media platforms are powerful tools to build your brand, connect with your audience, and drive website traffic. Choose the right platforms for your business and share consistent, valuable content."
+                  }
+                ],
+                "conclusion": "Digital marketing is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, leveraging SEO, and using social media effectively, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "how-seo-can-boost-your-website-traffic",
+                "title": "How SEO Can Boost Your Website Traffic",
+                "eyebrow": "SEO",
+                "date": "25 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80",
+                "category": "SEO",
+                "day": "25",
+                "month": "Sep",
+                "excerpt": "Learn how a strong SEO strategy can increase visibility and bring more organic traffic to your website.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. Learn how a strong SEO strategy can increase visibility and bring more organic traffic to your website. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "How SEO Can Boost Your Website Traffic is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "power-of-social-media",
+                "title": "The Power of Social Media for Brand Awareness",
+                "eyebrow": "SOCIAL MEDIA",
+                "date": "22 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80",
+                "category": "Social Media",
+                "day": "22",
+                "month": "Sep",
+                "excerpt": "Explore how social media can help you build a strong brand presence and connect with your audience.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. Explore how social media can help you build a strong brand presence and connect with your audience. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "The Power of Social Media for Brand Awareness is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "why-good-website-design-matters",
+                "title": "Why a Good Website Design Matters",
+                "eyebrow": "WEB DESIGN",
+                "date": "18 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&q=80",
+                "category": "Web Design",
+                "day": "18",
+                "month": "Sep",
+                "excerpt": "Find out how a well-designed website improves user experience and boosts conversions.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. Find out how a well-designed website improves user experience and boosts conversions. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "Why a Good Website Design Matters is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "ppc-advertising-tips",
+                "title": "PPC Advertising Tips for Better ROI",
+                "eyebrow": "PPC ADVERTISING",
+                "date": "15 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+                "category": "PPC Advertising",
+                "day": "15",
+                "month": "Sep",
+                "excerpt": "Get expert tips on running successful PPC campaigns and maximizing your return on investment.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. Get expert tips on running successful PPC campaigns and maximizing your return on investment. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "PPC Advertising Tips for Better ROI is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "content-marketing-ideas",
+                "title": "Content Marketing Ideas to Engage Your Audience",
+                "eyebrow": "CONTENT MARKETING",
+                "date": "12 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80",
+                "category": "Content Marketing",
+                "day": "12",
+                "month": "Sep",
+                "excerpt": "Explore creative content ideas that attract, engage, and convert your target audience.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. Explore creative content ideas that attract, engage, and convert your target audience. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "Content Marketing Ideas to Engage Your Audience is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "cloud-tools-for-small-teams",
+                "title": "Cloud Tools That Help Small Teams Scale",
+                "eyebrow": "CLOUD SOLUTIONS",
+                "date": "08 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+                "category": "Cloud Solutions",
+                "day": "08",
+                "month": "Sep",
+                "excerpt": "See which cloud tools keep a growing team fast without adding extra complexity.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. See which cloud tools keep a growing team fast without adding extra complexity. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "Cloud Tools That Help Small Teams Scale is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "choose-the-right-software-partner",
+                "title": "How to Choose the Right Software Partner",
+                "eyebrow": "IT CONSULTING",
+                "date": "04 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+                "category": "IT Consulting",
+                "day": "04",
+                "month": "Sep",
+                "excerpt": "A simple way to compare software partners before you start a new build.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. A simple way to compare software partners before you start a new build. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "How to Choose the Right Software Partner is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              },
+              {
+                "slug": "security-habits-every-business",
+                "title": "Security Habits Every Business Should Keep",
+                "eyebrow": "BUSINESS GROWTH",
+                "date": "01 Sep, 2026",
+                "author": "Admin",
+                "comments": "0 Comments",
+                "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+                "category": "Business Growth",
+                "day": "01",
+                "month": "Sep",
+                "excerpt": "Everyday security habits that protect customer data and keep systems available.",
+                "intro": "In today's competitive digital landscape, a clear plan matters. Everyday security habits that protect customer data and keep systems available. In this post, we explore practical steps that can take your business to the next level.",
+                "sections": [
+                  {
+                    "title": "Understand Your Audience",
+                    "text": "The first step is understanding your target audience. Know their needs, preferences, and online behavior. This helps you create content and campaigns that truly resonate with them."
+                  },
+                  {
+                    "title": "Create High-Quality Content",
+                    "text": "Content is the backbone of this work. Whether it is a blog post, a page, or a campaign, clear and useful content helps you attract, engage, and convert your audience."
+                  },
+                  {
+                    "title": "Use the Right Channels",
+                    "text": "Choose the platforms where your customers already spend time. A clear message on the right channel brings better results than posting everywhere without a plan."
+                  },
+                  {
+                    "title": "Measure and Improve",
+                    "text": "Track what is working, keep the efforts that bring enquiries, and adjust the rest. Small, regular improvements beat a one-time push that is never reviewed."
+                  }
+                ],
+                "conclusion": "Security Habits Every Business Should Keep is not a one-time effort but an ongoing process. By understanding your audience, creating valuable content, and reviewing results, you can achieve sustainable business growth."
+              }
+            ]
           }
         }
       }

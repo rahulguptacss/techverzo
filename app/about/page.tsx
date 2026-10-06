@@ -1,9 +1,11 @@
 import Topbar from '../../components/sections/Topbar';
 import Header from '../../components/sections/Header';
+import Breadcrumb from '../../components/sections/Breadcrumb';
+import About from '../../components/sections/About';
+import WhyChoose from '../../components/sections/WhyChoose';
 import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/ui/BackToTop';
-import PageSections from '../../components/PageSections';
-import { common, pages } from '../../components/types';
+import { common, pages, sections } from '../../components/types';
 
 export const metadata = {
   title: pages.about.metadata.title,
@@ -15,7 +17,9 @@ export default function AboutPage() {
       <Topbar data={common.Topbar} />
       <Header data={common.Header} />
       <main className="w-full flex-1">
-        <PageSections page={pages.about} />
+        <Breadcrumb data={sections.breadcrumb.about} image={sections.breadcrumb.image} />
+        <About data={sections.about} />
+        <WhyChoose data={sections.why_choose} />
       </main>
       <Footer data={common.Footer} />
       <BackToTop />

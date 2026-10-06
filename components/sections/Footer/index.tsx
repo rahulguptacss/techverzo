@@ -63,6 +63,8 @@ export default function Footer({ data }: { data: FooterData }) {
                 <motion.a
                   key={s.icon}
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={s.icon}
                   initial={{ opacity: 0, scale: 0.6 }}
                   whileInView={{ opacity: 1, scale: 1 }}

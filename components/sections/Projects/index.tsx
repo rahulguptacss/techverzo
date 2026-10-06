@@ -1,15 +1,22 @@
 "use client";
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ProjectsSectionData } from '../../types';
 import { fadeUp, inView, stagger } from '../../motion';
 
-export default function Projects({ data }: { data: ProjectsSectionData }) {
+const PAGE_SIZE = 6;
+
+export default function Projects({ data, paginate = false }: { data: ProjectsSectionData; paginate?: boolean }) {
+  const [page, setPage] = useState(1);
+  const totalPages = paginate ? Math.ceil(data.items.length / PAGE_SIZE) : 1;
+  const visible = paginate ? data.items.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE) : data.items;
+
   return (
     <section className="bg-[#f7f8fc] py-8 sm:py-10">
-      <div className="mx-auto max-w-[1280px] px-2 sm:px-3">
+      <div className="mx-auto max-w-[1280px] px-4 sm:px-5">
         <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={inView} className="text-center">
           <span className="inline-flex rounded-full bg-[#ece8ff] px-4 py-1.5 text-[11px] font-bold tracking-[1.4px] text-[#5b4dff] sm:text-[12px]">
             {data.subtitle}
@@ -19,8 +26,16 @@ export default function Projects({ data }: { data: ProjectsSectionData }) {
           </h2>
         </motion.div>
 
-        <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={inView} className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {data.items.map((item) => (
+        <motion.div
+          key={page}
+          variants={stagger}
+          initial="hidden"
+          animate={paginate ? 'show' : undefined}
+          whileInView={paginate ? undefined : 'show'}
+          viewport={inView}
+          className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {visible.map((item) => (
             <motion.article
               key={item.title}
               variants={fadeUp}
@@ -44,6 +59,41 @@ export default function Projects({ data }: { data: ProjectsSectionData }) {
             </motion.article>
           ))}
         </motion.div>
+
+        {totalPages > 1 && (
+          <div className="mt-8 flex items-center justify-center gap-2">
+            <button
+              type="button"
+              aria-label="Previous"
+              disabled={page === 1}
+              onClick={() => setPage((current) => Math.max(1, current - 1))}
+              className="grid h-10 w-10 place-items-center rounded-full bg-[#f3f1ff] text-[#171a3a] disabled:opacity-40"
+            >
+              <ChevronLeft size={18} />
+            </button>
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
+              <button
+                key={n}
+                type="button"
+                onClick={() => setPage(n)}
+                className={`grid h-10 w-10 place-items-center rounded-full text-[14px] font-bold ${
+                  n === page ? 'bg-[#6d4dff] text-white' : 'bg-[#f3f1ff] text-[#171a3a]'
+                }`}
+              >
+                {n}
+              </button>
+            ))}
+            <button
+              type="button"
+              aria-label="Next"
+              disabled={page === totalPages}
+              onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
+              className="grid h-10 w-10 place-items-center rounded-full bg-[#f3f1ff] text-[#171a3a] disabled:opacity-40"
+            >
+              <ChevronRight size={18} />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
