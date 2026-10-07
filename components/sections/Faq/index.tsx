@@ -1,9 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Check, ChevronDown, ChevronRight } from 'lucide-react';
+import { Check, ChevronDown } from 'lucide-react';
 import { fadeUp, inView } from '../../motion';
 import { FaqData } from '../../types';
 
@@ -13,12 +12,6 @@ export default function Faq({ data }: { data: FaqData }) {
   return (
     <section className="bg-white py-8 sm:py-10">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-5">
-        <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mb-8 flex items-center gap-1.5 text-[13px] text-[#8b93a7]">
-          <Link href="/" className="hover:text-[#6d4dff]">Home</Link>
-          <ChevronRight size={14} />
-          <span className="font-medium text-[#5b4dff]">{data.crumb}</span>
-        </motion.div>
-
         <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-10">
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={inView}>
             <span className="inline-flex rounded-full bg-[#ece8ff] px-3 py-1 text-[11px] font-bold tracking-[1.2px] text-[#5b4dff]">{data.badge}</span>

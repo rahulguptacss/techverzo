@@ -36,7 +36,11 @@ export default function Contact({ data }: { data: ContactData }) {
             <motion.div key={card.title} variants={fadeUp} whileHover={{ y: -4 }} className="min-w-0 rounded-[12px] border border-[#eceef5] bg-white px-4 py-4 shadow-[0_8px_24px_rgba(23,26,58,0.04)]">
               <p className="text-[13px] text-[#8b93a7]">{card.title}</p>
               <p className="mt-1 break-words text-[15px] font-bold text-[#171a3a]">{card.lines[0]}</p>
-              {card.lines[1] ? <p className="mt-1 text-[13px] leading-5 text-[#6d7a9a]">{card.lines[1]}</p> : null}
+              {card.lines[1] ? (
+                <p className={card.title === 'Our Location' ? 'mt-1 break-words text-[15px] font-bold text-[#171a3a]' : 'mt-1 text-[13px] leading-5 text-[#6d7a9a]'}>
+                  {card.lines[1]}
+                </p>
+              ) : null}
             </motion.div>
           ))}
           <motion.div variants={fadeUp} whileHover={{ y: -4 }} className="rounded-[12px] border border-[#eceef5] bg-white px-4 py-4 shadow-[0_8px_24px_rgba(23,26,58,0.04)]">

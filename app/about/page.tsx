@@ -18,7 +18,7 @@ export default function AboutPage() {
       <Header data={common.Header} />
       <main className="w-full flex-1">
         <Breadcrumb data={sections.breadcrumb.about} image={sections.breadcrumb.image} />
-        <About data={sections.about} />
+        <About data={sections.about} showButton={false} />
         <WhyChoose data={sections.why_choose} />
       </main>
       <Footer data={common.Footer} />

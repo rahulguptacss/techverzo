@@ -13,7 +13,7 @@ const icons: Record<string, { Icon: ComponentType<{ size?: number }>; bg: string
   chart: { Icon: BarChart3, bg: '#4b3dff' },
 };
 
-export default function About({ data }: { data: AboutSectionData }) {
+export default function About({ data, showButton = true }: { data: AboutSectionData; showButton?: boolean }) {
   return (
     <section className="overflow-hidden bg-white py-10 sm:py-14 lg:py-16">
       <div className="mx-auto grid max-w-[1240px] items-center gap-8 px-4 sm:px-5 lg:grid-cols-[1.05fr_1fr] lg:gap-12">
@@ -87,12 +87,14 @@ export default function About({ data }: { data: AboutSectionData }) {
               );
             })}
           </div>
-          <motion.div variants={fadeUp} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} className="inline-block">
-            <Link href={data.button.href} className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[#f5b423] px-6 py-3 text-[15px] font-bold text-[#1a1a1a]">
-              {data.button.text}
-              <span aria-hidden>→</span>
-            </Link>
-          </motion.div>
+          {showButton && (
+            <motion.div variants={fadeUp} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} className="inline-block">
+              <Link href={data.button.href} className="mt-6 inline-flex items-center gap-2 rounded-lg bg-[#f5b423] px-6 py-3 text-[15px] font-bold text-[#1a1a1a]">
+                {data.button.text}
+                <span aria-hidden>→</span>
+              </Link>
+            </motion.div>
+          )}
         </motion.div>
       </div>
     </section>

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { fadeUp, inView, stagger } from '../../motion';
@@ -18,12 +17,6 @@ export default function PhotoGallery({ data }: { data: PhotoGalleryData }) {
   return (
     <section className="bg-white py-6 sm:py-8">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-5">
-        <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mb-5 flex items-center gap-1.5 text-[13px] text-[#8b93a7]">
-          <Link href="/" className="hover:text-[#6d4dff]">Home</Link>
-          <ChevronRight size={14} />
-          <span className="font-medium text-[#5b4dff]">Gallery</span>
-        </motion.div>
-
         <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={inView}>
           <span className="inline-flex rounded-full bg-[#ece8ff] px-3 py-1 text-[11px] font-bold tracking-[1.2px] text-[#5b4dff]">{data.badge}</span>
           <h2 className="mt-3 text-[28px] font-extrabold leading-tight text-[#171a3a] sm:text-[44px] sm:leading-none">

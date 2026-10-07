@@ -14,19 +14,6 @@ export default function ProjectDetail({ item, menu }: { item: ProjectDetailItem;
     <section className="bg-white pb-8 pt-4 sm:pb-10">
       <div className="mx-auto grid max-w-[1240px] items-start gap-4 px-4 sm:px-5 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-5">
         <div>
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
-          className="mb-4 flex flex-wrap items-center gap-1.5 text-[13px] text-[#8b93a7]"
-        >
-          <Link href="/" className="hover:text-[#6d4dff]">Home</Link>
-          <ChevronRight size={14} />
-          <Link href="/projects" className="hover:text-[#6d4dff]">Projects</Link>
-          <ChevronRight size={14} />
-          <span className="font-medium text-[#5b4dff]">{item.title}</span>
-        </motion.div>
-
         <motion.img
           src={item.image}
           alt=""

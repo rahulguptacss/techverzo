@@ -19,6 +19,7 @@ export default function ServiceSelect({
   const [value, setValue] = useState('');
   const [box, setBox] = useState({ top: 0, left: 0, width: 0 });
   const root = useRef<HTMLDivElement>(null);
+  const menu = useRef<HTMLUListElement>(null);
 
   const place = () => {
     const node = root.current;
@@ -32,7 +33,9 @@ export default function ServiceSelect({
 
   useEffect(() => {
     const close = (event: MouseEvent) => {
-      if (!root.current?.contains(event.target as Node)) setOpen(false);
+      const target = event.target as Node;
+      if (root.current?.contains(target) || menu.current?.contains(target)) return;
+      setOpen(false);
     };
     document.addEventListener('mousedown', close);
     return () => document.removeEventListener('mousedown', close);
@@ -58,6 +61,7 @@ export default function ServiceSelect({
       </button>
       {open && createPortal(
         <ul
+          ref={menu}
           style={{ top: box.top, left: box.left, width: box.width }}
           className="fixed z-[300] max-h-56 overflow-auto rounded-[10px] border border-[#eceef5] bg-white py-1 shadow-[0_12px_30px_rgba(23,26,58,0.16)]"
         >
@@ -65,7 +69,8 @@ export default function ServiceSelect({
             <li key={option}>
               <button
                 type="button"
-                onClick={() => {
+                onMouseDown={(event) => {
+                  event.preventDefault();
                   setValue(option);
                   setOpen(false);
                 }}

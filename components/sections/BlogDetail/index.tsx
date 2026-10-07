@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Calendar, ChevronRight, MessageCircle, User } from 'lucide-react';
+import { Calendar, MessageCircle, User } from 'lucide-react';
 import { BlogDetailItem } from '../../types';
 import { fadeUp, inView } from '../../motion';
 
@@ -13,14 +13,6 @@ export default function BlogDetail({ item, posts }: { item: BlogDetailItem; post
   return (
     <section className="bg-white py-5 sm:py-8">
       <div className="mx-auto max-w-[1180px] px-4 sm:px-5">
-        <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mb-5 flex flex-wrap items-center gap-1.5 text-[13px] text-[#8b93a7]">
-          <Link href="/" className="hover:text-[#6d4dff]">Home</Link>
-          <ChevronRight size={14} />
-          <Link href="/blog" className="hover:text-[#6d4dff]">Blog</Link>
-          <ChevronRight size={14} />
-          <span className="font-medium text-[#5b4dff]">{item.title}</span>
-        </motion.div>
-
         <div className="grid items-start gap-6 sm:gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
           <motion.article variants={fadeUp} initial="hidden" animate="show" className="min-w-0">
             <span className="inline-flex rounded-full bg-[#ece8ff] px-3 py-1 text-[11px] font-bold uppercase tracking-[0.6px] text-[#5b4dff]">{item.eyebrow}</span>
