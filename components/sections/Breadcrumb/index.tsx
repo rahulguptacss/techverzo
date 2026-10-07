@@ -25,20 +25,20 @@ export default function Breadcrumb({ data, image }: { data: BreadcrumbData; imag
             <p className="mt-3 max-w-[420px] text-[14px] leading-7 text-white sm:text-[15px] sm:leading-[1.7] sm:text-white/90">{data.description}</p>
           </motion.div>
         </div>
+        <nav aria-label="Breadcrumb" className="absolute bottom-5 left-0 z-20 w-full">
+          <ol className="ml-10 inline-flex items-center gap-2.5 rounded-md bg-[#041a4a]/85 px-4 py-2 text-[15px] backdrop-blur-sm sm:ml-16">
+            <li>
+              <Link href="/" className="text-white/80 transition-colors hover:text-[#f5b423]">
+                Home
+              </Link>
+            </li>
+            <li aria-hidden className="text-white/55">›</li>
+            <li className="font-medium text-[#f5b423]" aria-current="page">
+              {label}
+            </li>
+          </ol>
+        </nav>
       </section>
-      <nav aria-label="Breadcrumb" className="border-t-[3px] border-[#0c1f4a] bg-white">
-        <ol className="mx-auto flex max-w-[1180px] items-center gap-2.5 px-4 py-5 text-[15px] sm:px-5">
-          <li>
-            <Link href="/" className="text-[#a0a6b8] transition-colors hover:text-[#4b3dff]">
-              Home
-            </Link>
-          </li>
-          <li aria-hidden className="text-[#b7bdd0]">›</li>
-          <li className="font-medium text-[#5b4dff]" aria-current="page">
-            {label}
-          </li>
-        </ol>
-      </nav>
     </>
   );
 }
